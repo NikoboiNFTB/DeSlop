@@ -40,17 +40,21 @@
 
     // Hide all feed items with blocked channels
     function filterFeed(root=document) {
-        const items = root.querySelectorAll('ytd-rich-item-renderer');
-        items.forEach(item => {
-            const channelLink = item.querySelector('a[href^="/channel/"]');
-            if (channelLink) {
-                const channelId = channelLink.getAttribute('href').split('/channel/')[1].split('?')[0];
-                if (blockedChannels.has(channelId)) {
-                    item.style.display = 'none';
-                }
+    const items = root.querySelectorAll('ytd-rich-item-renderer');
+    items.forEach(item => {
+        // Grab any channel/@ link
+        const channelLink = item.querySelector('a[href^="/channel/"], a[href^="/@"]');
+        if (channelLink) {
+            // Use the href exactly as-is, stripping only query params
+            const href = channelLink.getAttribute('href').split('?')[0]; 
+            if (blockedChannels.has(href)) {
+                item.style.display = 'none';
             }
-        });
-    }
+        }
+    });
+}
+
+
 
     // Observe the feed for new items (infinite scroll)
     const observer = new MutationObserver(mutations => {
