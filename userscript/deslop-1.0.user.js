@@ -13,7 +13,7 @@
 (function() {
     'use strict';
 
-    const BLOCKLIST_URL = 'https://raw.githubusercontent.com/NikoboiNFTB/DeSlop/refs/heads/main/block/list-202501071243.txt';
+    const BLOCKLIST_URL = 'https://raw.githubusercontent.com/NikoboiNFTB/DeSlop/refs/heads/main/block/list.txt';
     let blockedChannels = new Set();
 
     // Fetch blocklist
