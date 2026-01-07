@@ -13,7 +13,7 @@
     'use strict';
 
     // URL of the blocklist (raw GitHub)
-    const BLOCKLIST_URL = 'https://raw.githubusercontent.com/NikoboiNFTB/DeSlop/refs/heads/main/block/list.txt?token=GHSAT0AAAAAADSVKSWX5JGSYXXBWNEU2PCK2K6FIQQ';
+    const BLOCKLIST_URL = 'https://raw.githubusercontent.com/NikoboiNFTB/DeSlop/refs/heads/main/block/list.txt?token=GHSAT0AAAAAADSVKSWWGC5OUAJC43B3THGW2K6FVEQ';
 
     let blockedChannels = new Set();
 
