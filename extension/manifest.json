@@ -2,11 +2,8 @@
   "manifest_version": 2,
   "name": "YouTube DeSlop",
   "version": "1.0",
-  "description": "Adds a 'Search on Songsterr' option to the context menu for highlighted text.",
-  "permissions": [
-    "contextMenus",
-    "tabs"
-  ],
+  "description": "Remove AI slop from your YouTube feed. Blocklist-driven.",
+  "permissions": [],
   "background": {
     "scripts": ["background.js"]
   },
