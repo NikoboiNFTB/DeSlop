@@ -1,8 +1,8 @@
 // ==UserScript==
-// @name         YouTube - DeSlop (Nuke Mode v2)
+// @name         YouTube DeSlop
 // @namespace    https://github.com/NikoboiNFTB/DeSlop
-// @version      2.0
-// @description  Hide AI slop from YouTube feed by nuking blocked channels entirely.
+// @version      1.0
+// @description  Remove AI slop from your YouTube feed. Blocklist-driven.
 // @author       Nikoboi
 // @match        https://www.youtube.com/*
 // @grant        GM_xmlhttpRequest
@@ -13,6 +13,7 @@
 (function() {
     'use strict';
 
+    // Blocklist name to be changed with each revision. Format: list-YYYYMMDDHHMM.txt
     const BLOCKLIST_URL = 'https://raw.githubusercontent.com/NikoboiNFTB/DeSlop/refs/heads/main/block/list.txt';
     let blockedChannels = new Set();
 
