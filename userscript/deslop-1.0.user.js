@@ -1,8 +1,8 @@
 // ==UserScript==
-// @name         YouTube - DeSlop
+// @name         YouTube - DeSlop (Nuke Mode)
 // @namespace    https://github.com/NikoboiNFTB/DeSlop
 // @version      1.1
-// @description  Hide AI slop from your YouTube feed. Blocklist-driven.
+// @description  Hide AI slop from YouTube feed by nuking blocked channels.
 // @author       Nikoboi
 // @match        https://www.youtube.com/*
 // @grant        GM_xmlhttpRequest
@@ -13,29 +13,11 @@
 (function() {
     'use strict';
 
-    const BLOCKLIST_URL = 'https://raw.githubusercontent.com/NikoboiNFTB/DeSlop/refs/heads/main/block/list.txt';
+    const BLOCKLIST_URL = 'https://raw.githubusercontent.com/NikoboiNFTB/DeSlop/refs/heads/main/block/list-202501071243.txt';
     let blockedChannels = new Set();
 
-    // -------------------------
-    // Helper: Deep querySelectorAll to traverse shadow roots
-    // -------------------------
-    function querySelectorAllDeep(selector, root = document) {
-        let results = [];
-        if (root.shadowRoot) {
-            results = results.concat(Array.from(root.shadowRoot.querySelectorAll(selector)));
-        }
-        results = results.concat(Array.from(root.querySelectorAll(selector)));
-        Array.from(root.children).forEach(child => {
-            results = results.concat(querySelectorAllDeep(selector, child));
-        });
-        return results;
-    }
-
-    // -------------------------
-    // Fetch blocklist
-    // -------------------------
-    function fetchBlocklist(callback) {
-        console.log('Fetching blocklist...');
+    // Fetch blocklist from GitHub
+    function fetchBlocklist() {
         GM_xmlhttpRequest({
             method: 'GET',
             url: BLOCKLIST_URL,
@@ -48,90 +30,74 @@
                             .filter(line => line.length > 0)
                     );
                     console.log('Blocklist loaded:', blockedChannels);
-                    if (callback) callback();
+                    filterFeed(); // initial filter
                 } else {
                     console.error('Failed to fetch blocklist:', response.status);
                 }
-            },
-            onerror: function(err) {
-                console.error('Error fetching blocklist:', err);
             }
         });
     }
 
-    // -------------------------
-    // Filter feed items
-    // -------------------------
-    function filterFeed(root = document) {
-        const items = querySelectorAllDeep('ytd-rich-item-renderer', root);
-        items.forEach(item => {
-            if (item.style.display === 'none') return;
+    // Remove an item from the DOM
+    function nukeItem(item, href) {
+        console.log('Nuking item:', href, item);
+        if (item.parentNode) {
+            item.parentNode.removeChild(item);
+        }
+    }
 
-            // Look for any channel/@ link
+    // Filter feed recursively
+    function filterFeed(root = document) {
+        const items = root.querySelectorAll('ytd-rich-item-renderer');
+        items.forEach(item => {
+            if (item.dataset.deslopNuked) return; // already handled
+            item.dataset.deslopNuked = true;
+
             const channelLink = item.querySelector('a[href^="/channel/"], a[href^="/@"]');
-            if (!channelLink) {
-                // If not rendered yet, observe this item
+            if (channelLink) {
+                const href = channelLink.getAttribute('href').split('?')[0];
+                if (blockedChannels.has(href)) {
+                    nukeItem(item, href);
+                    return;
+                }
+            } else {
+                // Observe item for lazy-loaded links
                 const observer = new MutationObserver(() => {
                     const link = item.querySelector('a[href^="/channel/"], a[href^="/@"]');
                     if (link) {
                         const href = link.getAttribute('href').split('?')[0];
-                        if (blockedChannels.has(href)) {
-                            console.log('Hiding item (late link found):', href, item);
-                            item.style.display = 'none';
-                        }
+                        if (blockedChannels.has(href)) nukeItem(item, href);
                         observer.disconnect();
                     }
                 });
                 observer.observe(item, { childList: true, subtree: true });
-                return;
-            }
-
-            const href = channelLink.getAttribute('href').split('?')[0];
-            const blocked = blockedChannels.has(href);
-            console.log('Checking item:', href, 'Blocked?', blocked);
-            if (blocked) {
-                console.log('Hiding item:', href, item);
-                item.style.display = 'none';
             }
         });
     }
 
-    // -------------------------
-    // Wait for feed container
-    // -------------------------
-    function waitForFeedContainer(callback) {
-        const container = document.querySelector('ytd-rich-grid-renderer');
-        if (container) {
-            console.log('Feed container found, starting observer...');
-            callback(container);
-        } else {
-            setTimeout(() => waitForFeedContainer(callback), 500);
-        }
-    }
-
-    // -------------------------
-    // Observe for new items (infinite scroll)
-    // -------------------------
-    const observer = new MutationObserver(mutations => {
-        for (const mutation of mutations) {
+    // Observe the feed for new nodes (infinite scroll)
+    const feedObserver = new MutationObserver(mutations => {
+        mutations.forEach(mutation => {
             mutation.addedNodes.forEach(node => {
                 if (node.nodeType === 1) {
                     console.log('New node added:', node);
                     filterFeed(node);
                 }
             });
-        }
-    });
-
-    // -------------------------
-    // Initialize
-    // -------------------------
-    fetchBlocklist(() => {
-        waitForFeedContainer(feedContainer => {
-            observer.observe(feedContainer, { childList: true, subtree: true });
-            // Initial filter in case items are already loaded
-            filterFeed();
         });
     });
 
+    function startObserving() {
+        const feedContainer = document.querySelector('ytd-rich-grid-renderer');
+        if (feedContainer) {
+            feedObserver.observe(feedContainer, { childList: true, subtree: true });
+            console.log('Feed observer attached.');
+        } else {
+            // Retry if not loaded yet
+            setTimeout(startObserving, 1000);
+        }
+    }
+
+    fetchBlocklist();
+    startObserving();
 })();
