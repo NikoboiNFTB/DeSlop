@@ -10,15 +10,15 @@ Fully AI-generated videos as well as channels that promote or teach how to creat
 
 ## The blocklist
 
-The list is incomplete! Your help is much appreciated!
+⚠️ The list is incomplete! Your help is much appreciated! ⚠️
 
 Reporting channels can be done in multiple ways;
 
 - Submitting a pull request on [GitHub](https://github.com/NikoboiNFTB/DeSlop/pulls). This is the easiest on the back-end.
-  - The blocklist entries **must** be in this format:
-  - /@NikoboiNFTB
-  - If the user has no @ username, use:
-  - /channel/UCDI-86yEQamXmjvvxg40cIQ
+  - The blocklist entries **must** be in this format:  
+    /@NikoboiNFTB
+  - If the user has no @ username, use:  
+    /channel/UCDI-86yEQamXmjvvxg40cIQ
   - Basically the exact contents of href="" on the feed page.
 
 - Email me at my support email and I will add the channel manually.
