@@ -27,7 +27,7 @@ Reporting channels can be done in multiple ways;
 - Contact me on any of [my socials](https://nikoboi.dev/#:~:text=My%20Socials)
   - Preferably a channel link in this case.
 
-- Google Forms coming soon!
+- Google Forms for anonymous submissions coming soon!
 
 ## Installation
 
