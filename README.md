@@ -1,8 +1,41 @@
 # DeSlop
 
-Userscript and future browser extension for filtering out AI slop from your YouTube feed. Userscript currently working, but blocklist is empty.
+Userscript and browser extension for filtering out AI slop from your YouTube feed.
+
+## Description
+
+Fetches a blocklist from [GitHub](https://raw.githubusercontent.com/NikoboiNFTB/DeSlop/refs/heads/main/block/list.txt) and removes any and all videos from your feed that matches any entry on that list.
+
+Fully AI-generated videos as well as channels that promote or teach how to create AI slop qualify as AI slop.
+
+## The blocklist
+
+The list is incomplete! Your help is much appreciated!
+
+Reporting channels can be done in multiple ways;
+
+- Submitting a pull request on [GitHub](https://github.com/NikoboiNFTB/DeSlop/pulls). This is the easiest on the back-end.
+  - The blocklist entries **must** be in this format:
+  - /@NikoboiNFTB
+  - If the user has no @ username, use:
+  - /channel/UCDI-86yEQamXmjvvxg40cIQ
+  - Basically the exact contents of href="" on the feed page.
+
+- Email me at my support email and I will add the channel manually.
+  Preferably a channel link in this case.
+
+- Contact me on any of [my socials](https://nikoboi.dev/#:~:text=My%20Socials)
+  Preferably a channel link in this case.
+
+- Google Forms coming soon!
+
+All source is available on [GitHub](https://github.com/NikoboiNFTB/DeSlop/)
+
+## Installation
 
 You can install it [here](https://github.com/NikoboiNFTB/DeSlop/raw/refs/heads/main/userscript/deslop-1.0.user.js) as a userscript or [here](https://addons.mozilla.org/en-US/firefox/addon/youtube-deslop/) as a Firefox Add-on (soon).
+
+##
 
 ## File Structure
 
