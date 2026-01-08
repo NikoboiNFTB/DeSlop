@@ -20,7 +20,7 @@ Reporting channels can be done in multiple ways;
   - If the user has no @ username, use:  
     ```/channel/UCDI-86yEQamXmjvvxg40cIQ```
   - Basically the exact contents of href="" on the feed page.
-  - Feel free to sort the entries, or not. I've included a handy sort script in the block folder.
+  - Feel free to sort the entries, or not. I've included a handy [sort](https://github.com/NikoboiNFTB/DeSlop/blob/main/block/sort) script in the block folder.
 
 - Email me at my support email and I will add the channel manually.
   - Preferably a channel link in this case.
@@ -51,3 +51,7 @@ YouTube DeSlop can be installed either as a [userscript](https://github.com/Niko
 ├── README.md  
 └── userscript  
     └── deslop-1.0.user.js  
+
+## License
+
+This project is licenced under the GNU General Public License V3. See [LICENSE](LICENSE) for details.
