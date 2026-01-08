@@ -55,6 +55,8 @@ YouTube DeSlop can be installed either as a [userscript](https://github.com/Niko
 │
 ├── LICENSE
 └── README.md
+
+5 directories, 10 files
 ```
 
 ## License
