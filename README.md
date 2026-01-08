@@ -41,6 +41,7 @@ YouTube DeSlop can be installed either as a [userscript](https://github.com/Niko
 ├── block  
 │   ├── list.txt  
 │   └── sort  
+│  
 ├── extension  
 │   ├── deslop-bg.js  
 │   ├── deslop.js  
@@ -48,10 +49,12 @@ YouTube DeSlop can be installed either as a [userscript](https://github.com/Niko
 │   ├── icons  
 │   │   └── icon128.png  
 │   └── manifest.json  
+│  
+├── userscript  
+│   └── deslop-1.0.user.js  
+│  
 ├── LICENSE  
-├── README.md  
-└── userscript  
-    └── deslop-1.0.user.js  
+└── README.md  
 ```
 
 ## License
