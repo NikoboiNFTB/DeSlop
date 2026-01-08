@@ -13,7 +13,6 @@
 (function() {
     'use strict';
 
-    // Blocklist name to be changed with each revision. Format: list-YYYYMMDDHHMM.txt
     const BLOCKLIST_URL = 'https://raw.githubusercontent.com/NikoboiNFTB/DeSlop/refs/heads/main/block/list.txt';
     let blockedChannels = new Set();
 
