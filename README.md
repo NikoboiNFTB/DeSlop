@@ -22,10 +22,10 @@ Reporting channels can be done in multiple ways;
   - Basically the exact contents of href="" on the feed page.
 
 - Email me at my support email and I will add the channel manually.
-  Preferably a channel link in this case.
+  - Preferably a channel link in this case.
 
 - Contact me on any of [my socials](https://nikoboi.dev/#:~:text=My%20Socials)
-  Preferably a channel link in this case.
+  - Preferably a channel link in this case.
 
 - Google Forms coming soon!
 
