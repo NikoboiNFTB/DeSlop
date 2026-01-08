@@ -19,9 +19,8 @@ Reporting channels can be done in multiple ways;
     ```/@NikoboiNFTB```
   - If the user has no @ username, use:  
     ```/channel/UCDI-86yEQamXmjvvxg40cIQ```
-  - Basically the exact contents of href="" on the feed page.  
-
-Feel free to sort, or not.
+  - Basically the exact contents of href="" on the feed page.
+  - Feel free to sort the entries, or not. I've included a handy ```sort``` script in the ```block``` folder.
 
 - Email me at my support email and I will add the channel manually.
   - Preferably a channel link in this case.
