@@ -36,6 +36,7 @@ YouTube DeSlop can be installed either as a [userscript](https://github.com/Niko
 
 ## File Structure
 
+```text
 .  
 ├── block  
 │   ├── list.txt  
@@ -51,6 +52,7 @@ YouTube DeSlop can be installed either as a [userscript](https://github.com/Niko
 ├── README.md  
 └── userscript  
     └── deslop-1.0.user.js  
+```
 
 ## License
 
