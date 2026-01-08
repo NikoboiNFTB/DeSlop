@@ -37,24 +37,24 @@ YouTube DeSlop can be installed either as a [userscript](https://github.com/Niko
 ## File Structure
 
 ```text
-.  
-├── block  
-│   ├── list.txt  
-│   └── sort  
-│  
-├── extension  
-│   ├── deslop-bg.js  
-│   ├── deslop.js  
-│   ├── extension.zip  
-│   ├── icons  
-│   │   └── icon128.png  
-│   └── manifest.json  
-│  
-├── userscript  
-│   └── deslop-1.0.user.js  
-│  
-├── LICENSE  
-└── README.md  
+.
+├── block
+│   ├── list.txt
+│   └── sort
+│
+├── extension
+│   ├── icons
+│   │   └── icon128.png
+│   ├── deslop-bg.js
+│   ├── deslop.js
+│   ├── extension.zip
+│   └── manifest.json
+│
+├── userscript
+│   └── deslop-1.0.user.js
+│
+├── LICENSE
+└── README.md
 ```
 
 ## License
