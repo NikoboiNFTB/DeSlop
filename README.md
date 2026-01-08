@@ -8,7 +8,7 @@ Fetches a blocklist from [GitHub](https://raw.githubusercontent.com/NikoboiNFTB/
 
 Fully AI-generated videos as well as channels that promote or teach how to create AI slop qualify as AI slop.
 
-## The blocklist
+## Blocklist
 
 ⚠️ The list is incomplete! Your help is much appreciated! ⚠️
 
