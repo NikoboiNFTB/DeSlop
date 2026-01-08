@@ -13,7 +13,7 @@
   },
 
   "icons": {
-    "128": "icons/icon128.png"
+    "144": "icons/favicon_144x144.png"
   },
   "permissions": [
     "https://www.youtube.com/*",
