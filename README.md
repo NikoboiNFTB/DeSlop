@@ -29,13 +29,9 @@ Reporting channels can be done in multiple ways;
 
 - Google Forms coming soon!
 
-All source is available on [GitHub](https://github.com/NikoboiNFTB/DeSlop/)
-
 ## Installation
 
-You can install it [here](https://github.com/NikoboiNFTB/DeSlop/raw/refs/heads/main/userscript/deslop-1.0.user.js) as a userscript or [here](https://addons.mozilla.org/en-US/firefox/addon/youtube-deslop/) as a Firefox Add-on (soon).
-
-##
+YouTube DeSlop can be installed either as a [userscript](https://github.com/NikoboiNFTB/DeSlop/raw/refs/heads/main/userscript/deslop-1.0.user.js) using your favorite userscript manager or as a [Firefox Add-on](https://addons.mozilla.org/en-US/firefox/addon/youtube-deslop/) (coming soon).
 
 ## File Structure
 
