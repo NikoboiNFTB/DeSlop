@@ -8,6 +8,10 @@ Fetches a blocklist from [GitHub](https://raw.githubusercontent.com/NikoboiNFTB/
 
 Fully AI-generated videos as well as channels that promote or teach how to create AI slop qualify as AI slop.
 
+## Installation
+
+YouTube DeSlop can be installed either as a [userscript](https://github.com/NikoboiNFTB/DeSlop/raw/refs/heads/main/userscript/deslop-1.0.user.js) using your favorite userscript manager or as a [Firefox Add-on](https://addons.mozilla.org/en-US/firefox/addon/youtube-deslop/) (coming soon).
+
 ## Blocklist
 
 ⚠️ The list is incomplete! Your help is much appreciated! ⚠️
@@ -29,10 +33,6 @@ Reporting channels can be done in multiple ways;
   - Preferably a channel link in this case.
 
 - Google Forms for anonymous submissions coming soon!
-
-## Installation
-
-YouTube DeSlop can be installed either as a [userscript](https://github.com/NikoboiNFTB/DeSlop/raw/refs/heads/main/userscript/deslop-1.0.user.js) using your favorite userscript manager or as a [Firefox Add-on](https://addons.mozilla.org/en-US/firefox/addon/youtube-deslop/) (coming soon).
 
 ## File Structure
 
