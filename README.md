@@ -45,7 +45,7 @@ YouTube DeSlop can be installed either as a [userscript](https://github.com/Niko
 │   ├── deslop.js  
 │   ├── extension.zip  
 │   ├── icons  
-│   │   └── favicon_144x144.png  
+│   │   └── icon128.png  
 │   └── manifest.json  
 ├── LICENSE  
 ├── README.md  
