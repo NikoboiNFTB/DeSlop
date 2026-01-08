@@ -1,14 +1,11 @@
 {
   "manifest_version": 2,
   "name": "YouTube DeSlop",
-  "version": "1.0",
+  "version": "1.2",
   "description": "Remove AI slop from your YouTube feed. Blocklist-driven.",
   "author": "Nikoboi",
   "icons": {
-    "32": "icons/favicon_32x32.png",
-    "64": "icons/favicon_64x64.png",
-    "128": "icons/favicon_128x128.png",
-    "144": "icons/favicon_144x144.png"
+    "128": "icons/icon128.png"
   },
   "permissions": [
     "https://www.youtube.com/*",
