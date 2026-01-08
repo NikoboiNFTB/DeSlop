@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+
+set -e
+
+sort list.txt -o list.txt
