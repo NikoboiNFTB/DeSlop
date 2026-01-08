@@ -4,6 +4,14 @@
   "version": "1.0",
   "description": "Remove AI slop from your YouTube feed. Blocklist-driven.",
   "author": "Nikoboi",
+
+  "data_collection_permissions": {
+    "collects_user_data": false,
+    "collects_browsing_history": false,
+    "collects_location": false,
+    "collects_personal_data": false
+  },
+
   "icons": {
     "128": "icons/icon128.png"
   },
