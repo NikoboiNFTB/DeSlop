@@ -12,31 +12,9 @@
 
     let blockedChannels = new Set();
 
-    async function fetchBlocklist() {
-        chrome.runtime.sendMessage({ type: "FETCH_BLOCKLIST", url: BLOCKLIST_URL }, response => {
-            if (!response || !response.ok) {
-                console.error("Failed to load blocklist:", response?.error);
-                return;
-            }
-
-            blockedChannels = new Set(
-                response.text
-                    .split("\n")
-                    .map(l => l.trim())
-                    .filter(Boolean)
-            );
-
-            console.log("Blocklist loaded:", blockedChannels);
-            sweepAll();
-        });
-    }
-
     function getChannelHref(renderer) {
-        let link = renderer.querySelector(
-            'a[href^="/@"], a[href^="/channel/"], #main-link'
-        );
-        if (!link) return null;
-        return link.getAttribute("href").split("?")[0];
+        const link = renderer.querySelector('a[href^="/@"], a[href^="/channel/"], #main-link');
+        return link ? link.getAttribute("href").split("?")[0] : null;
     }
 
     function nuke(renderer, href) {
@@ -51,42 +29,52 @@
         const href = getChannelHref(renderer);
         if (href && blockedChannels.has(href)) {
             nuke(renderer, href);
-            return;
         }
-
-        const observer = new MutationObserver(() => {
-            const lazyHref = getChannelHref(renderer);
-            if (!lazyHref) return;
-
-            if (blockedChannels.has(lazyHref)) {
-                nuke(renderer, lazyHref);
-            }
-            observer.disconnect();
-        });
-
-        observer.observe(renderer, { childList: true, subtree: true });
     }
 
-    function sweepAll() {
-        document.querySelectorAll(RENDERER_SELECTORS).forEach(processRenderer);
+    function sweepRenderers(nodes) {
+        nodes.forEach(node => {
+            if (node.nodeType !== 1) return;
+
+            if (node.matches?.(RENDERER_SELECTORS)) {
+                processRenderer(node);
+            }
+
+            node.querySelectorAll?.(RENDERER_SELECTORS)?.forEach(processRenderer);
+        });
     }
 
     function observePage() {
         const observer = new MutationObserver(mutations => {
-            for (const m of mutations) {
-                for (const node of m.addedNodes) {
-                    if (node.nodeType === 1 && node.matches?.(RENDERER_SELECTORS)) {
-                        processRenderer(node);
-                    }
-                }
-            }
+            mutations.forEach(mutation => {
+                sweepRenderers([...mutation.addedNodes]);
+            });
         });
 
         observer.observe(document.body, { childList: true, subtree: true });
         console.log("Global observer attached.");
     }
 
+    function fetchBlocklist() {
+        chrome.runtime.sendMessage({ type: "FETCH_BLOCKLIST", url: BLOCKLIST_URL }, response => {
+            if (!response || !response.ok) {
+                console.error("Failed to load blocklist:", response?.error);
+                return;
+            }
+
+            blockedChannels = new Set(
+                response.text
+                    .split("\n")
+                    .map(l => l.trim())
+                    .filter(Boolean)
+            );
+
+            console.log("Blocklist loaded:", blockedChannels);
+            // sweep existing DOM
+            document.querySelectorAll(RENDERER_SELECTORS).forEach(processRenderer);
+        });
+    }
+
     fetchBlocklist();
     observePage();
-    setInterval(sweepAll, 3000);
 })();
