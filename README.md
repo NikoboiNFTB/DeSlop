@@ -15,9 +15,9 @@ YouTube DeSlop can be installed either as:
 - [A Userscript](https://github.com/NikoboiNFTB/DeSlop/raw/refs/heads/main/userscript/deslop-1.2.user.js)
   - Userscript Managers: ([Firefox](https://addons.mozilla.org/en-US/firefox/addon/violentmonkey/)/[Chromium](https://chromewebstore.google.com/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo))
 
-They do not differ in functionality.
-
 >> Chrome extension coming soon.
+
+They do not differ in functionality.
 
 ## Blocklist
 
