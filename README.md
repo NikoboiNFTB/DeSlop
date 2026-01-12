@@ -17,7 +17,7 @@ YouTube DeSlop can be installed either as:
 
 They do not differ in functionality.
 
-There will **not** be a Chrome Extension. I'm not sending my ID to Google, paying to be a developer, then 
+There will **not** be an official Chrome Extension. I'm not sending my ID to Google, paying to be a developer, then probably get denied because Google wants to keep shoving AI slop down our throats.
 
 ![Fuck Google](assets/20260112181741.png)
 
