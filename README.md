@@ -23,6 +23,8 @@ They do not differ in functionality.
 
 ⚠️ The list is incomplete! Your help is much appreciated! ⚠️
 
+The blocklist can be found [here](https://raw.githubusercontent.com/NikoboiNFTB/DeSlop/refs/heads/main/block/list.txt).
+
 Reporting channels can be done in multiple ways;
 
 - Submitting a pull request on [GitHub](https://github.com/NikoboiNFTB/DeSlop/pulls). This is the easiest on the back-end.
@@ -39,7 +41,7 @@ Reporting channels can be done in multiple ways;
 - Contact me on any of [my socials](https://nikoboi.dev/#:~:text=My%20Socials)
   - Preferably a channel link in this case.
 
-- Google Forms for anonymous submissions coming soon!
+>> Google Forms for anonymous submissions coming soon!
 
 ## File Structure
 
