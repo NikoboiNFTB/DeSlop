@@ -7,7 +7,7 @@
 // @match        https://www.youtube.com/*
 // @grant        GM_xmlhttpRequest
 // @connect      raw.githubusercontent.com
-// @icon         https://www.youtube.com/s/desktop/ab67e92c/img/favicon_144x144.png
+// @icon         https://addons.mozilla.org/user-media/addon_icons/2969/2969055-64.png?modified=4e7e0864
 // ==/UserScript==
 
 (function () {
