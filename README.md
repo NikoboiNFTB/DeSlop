@@ -1,16 +1,18 @@
 # DeSlop
 
-Userscript and browser extension for filtering out AI slop from your YouTube feed.
+Userscript and browser extension for filtering out AI slop from your YouTube feed. Blocklist-driven.
 
 ## Description
 
 Fetches a blocklist from [GitHub](https://raw.githubusercontent.com/NikoboiNFTB/DeSlop/refs/heads/main/block/list.txt) and removes any and all videos from your feed that matches any entry on that list.
 
-Fully AI-generated videos as well as channels that promote or teach how to create AI slop qualify as AI slop.
+Channels that publish fully AI-generated "content" as well as channels that promote or teach how to create it qualify as AI slop, and will therefore be blocked.
 
 ## Installation
 
-YouTube DeSlop can be installed either as a [userscript](https://github.com/NikoboiNFTB/DeSlop/raw/refs/heads/main/userscript/deslop-1.0.user.js) using your favorite userscript manager or as a [Firefox Add-on](https://addons.mozilla.org/en-US/firefox/addon/youtube-deslop/) (coming soon).
+YouTube DeSlop can be installed either as a [Firefox Add-on](https://addons.mozilla.org/en-US/firefox/addon/youtube-deslop/) or as a [userscript](https://github.com/NikoboiNFTB/DeSlop/raw/refs/heads/main/userscript/deslop-1.0.user.js) using your favorite userscript manager ([Firefox](https://addons.mozilla.org/en-US/firefox/addon/violentmonkey/)/[Chromium](https://chromewebstore.google.com/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo)). They do not differ in functionality.
+
+>> Chrome extension may be coming soon.
 
 ## Blocklist
 
