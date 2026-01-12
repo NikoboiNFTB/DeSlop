@@ -17,9 +17,11 @@ YouTube DeSlop can be installed either as:
 
 They do not differ in functionality.
 
-There will **not** be a Chrome Extension. I'm not doing ts:
+There will **not** be a Chrome Extension. I'm not sending my ID to Google, paying to be a developer, then 
 
 ![Fuck Google](assets/20260112181741.png)
+
+![Fuck Google](https://developer.chrome.com/static/docs/webstore/register/image/screenshot-the-chrome-we-e977f560c26da_856.png)
 
 ## Blocklist
 
