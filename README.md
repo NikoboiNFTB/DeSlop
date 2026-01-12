@@ -19,7 +19,7 @@ They do not differ in functionality.
 
 There will **not** be a Chrome Extension. I'm not doing ts:
 
-![Fuck Google](assets/20260112181451.png)
+![Fuck Google](assets/20260112181741.png)
 
 ## Blocklist
 
