@@ -50,21 +50,25 @@ Reporting channels can be done in multiple ways;
 │   ├── list.txt
 │   └── sort
 │
-├── extension
-│   ├── icons
-│   │   └── icon128.png
-│   ├── deslop-bg.js
-│   ├── deslop.js
-│   ├── extension.zip
-│   └── manifest.json
+├── chromium
+│   ├── 1.0
+│   ├── 1.1
+│   └── ...
+│
+├── firefox
+│   ├── 1.2
+│   ├── 1.3
+│   └── ...
 │
 ├── userscript
-│   └── deslop-1.0.user.js
+│   ├── deslop-1.0.user.js
+│   ├── deslop-1.1.user.js
+│   └── ...
 │
 ├── LICENSE
 └── README.md
 
-5 directories, 10 files
+17 directories, 37 files
 ```
 
 ## License
