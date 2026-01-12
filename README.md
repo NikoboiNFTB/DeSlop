@@ -35,11 +35,10 @@ Reporting channels can be done in multiple ways;
   - Basically the exact contents of href="" on the feed page.
   - Feel free to sort the entries, or not. I've included a handy [sort](https://github.com/NikoboiNFTB/DeSlop/blob/main/block/sort) script in the block folder.
 
-- Email me at my support email and I will add the channel manually.
+- Email me at [my support email](mailto:support@nikoboi.dev) and I will add the channel manually.
   - Preferably a channel link in this case.
-
-- Contact me on any of [my socials](https://nikoboi.dev/#:~:text=My%20Socials)
-  - Preferably a channel link in this case.
+  - Your email will not be used for anything, ever.
+    - Feel free to use any throwaway email, I don't care.
 
 >> Google Forms for anonymous submissions coming soon!
 
