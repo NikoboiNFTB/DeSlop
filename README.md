@@ -12,8 +12,9 @@ Channels that publish fully AI-generated "content" as well as channels that prom
 
 YouTube DeSlop can be installed either as:
 - [A Firefox Add-on](https://addons.mozilla.org/en-US/firefox/addon/youtube-deslop/)
-- [userscript](https://github.com/NikoboiNFTB/DeSlop/raw/refs/heads/main/userscript/deslop-1.2.user.js)
-  - ([Firefox](https://addons.mozilla.org/en-US/firefox/addon/violentmonkey/)/[Chromium](https://chromewebstore.google.com/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo))
+- [A Userscript](https://github.com/NikoboiNFTB/DeSlop/raw/refs/heads/main/userscript/deslop-1.2.user.js)
+  - Userscript Managers: ([Firefox](https://addons.mozilla.org/en-US/firefox/addon/violentmonkey/)/[Chromium](https://chromewebstore.google.com/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo))
+
 They do not differ in functionality.
 
 >> Chrome extension coming soon.
