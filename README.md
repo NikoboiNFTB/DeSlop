@@ -31,16 +31,17 @@ Extensions can still be installed locally:
 
 2. Unzip it anywhere (keep it safe, you can **not** delete it later).
 
->> One-tap command:
+>> Alternatively, via CLI (MacOS and Linux compatible):
 
 ```sh
-mkdir YouTube-DeSlop
-cd YouTube-DeSlop
+mkdir -p YouTube-DeSlop-1.2
+cd YouTube-DeSlop-1.2
 curl -L -o 1.2.zip https://github.com/NikoboiNFTB/DeSlop/raw/refs/heads/main/chromium/1.2/1.2.zip
-tar -xf 1.2.zip
+unzip -o 1.2.zip
+rm 1.2.zip
 ```
 
->> If run in `~/`, the extension folder will be `~/YouTube-DeSlop`
+>> If run in `~/`, the extension folder will be `~/YouTube-DeSlop-1.2`
 
 3. Go to `chrome://extensions/`.
 
@@ -49,9 +50,11 @@ tar -xf 1.2.zip
 5. Hit "Load unpacked" from the new bar that appeared.
 
 6. Navigate to the extension **folder**. 
-  - For example: `~/YouTube-DeSlop` if that's where you saved it.
+  - For example: `~/YouTube-DeSlop-1.2` if that's where you saved it.
 
 7. Confirm
+
+Or just use the userscript.
 
 ## Blocklist
 
