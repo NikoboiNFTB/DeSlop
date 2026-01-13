@@ -28,19 +28,23 @@ I'm not sending my ID to Google, paying to be a developer, then probably get den
 Extensions can still be installed locally:
 
 1. Download the extension zip file ([here](https://github.com/NikoboiNFTB/DeSlop/raw/refs/heads/main/chromium/1.2/1.2.zip)).
+
 2. Unzip it anywhere (keep it safe, you can **not** delete it later).
->> One-tap command for Linux users:
+>> One-tap command:
 ```bash
 mkdir YouTube-DeSlop
 cd YouTube-DeSlop
-wget http://github.com/NikoboiNFTB/DeSlop/raw/refs/heads/main/chromium/1.2/1.2.zip
-unzip 1.2.zip
+curl -L -o 1.2.zip https://github.com/NikoboiNFTB/DeSlop/raw/refs/heads/main/chromium/1.2/1.2.zip
+tar -xf 1.2.zip
 ```
+>> If run in `~/`, the extension folder will be `~/YouTube-DeSlop`
+
 3. Go to `chrome://extensions/`.
 4. Enable "Developer mode" in the top-right.
 5. Hit "Load unpacked" from the new bar that appeared.
 6. Navigate to the extension **folder**. 
-  - For example: `/home/ml/nikob/GitHub/NikoboiNFTB/DeSlop/chromium/1.2
+  - For example: `~/YouTube-DeSlop` if that's where you saved it.
+7. 
 
 ## Blocklist
 
