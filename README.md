@@ -38,7 +38,7 @@ There will **not** be an official Chrome Web Store Extension.
 1. Go to `chrome://extensions/`
 2. Enable **Developer Mode** in the top-right corner.
 3. Click **Load unpacked** from the newly appeared bar.
-4. Navigate to the extension folder (oh yeah, download and unzip the extension ([here](https://github.com/NikoboiNFTB/DeSlop/raw/refs/heads/main/chromium/1.2/1.2.zip)) and confirm.
+4. Navigate to the extension folder (oh yeah, download and unzip the extension ([here](https://github.com/NikoboiNFTB/DeSlop/raw/refs/heads/main/chromium/1.2/1.2.zip))) and confirm.
 5. Enjoy! Until you restart your browser, then it's gone.
 
 ## Blocklist
