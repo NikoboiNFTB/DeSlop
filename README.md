@@ -63,6 +63,7 @@ The blocklist can be found in [`/block/list.txt`](https://github.com/NikoboiNFTB
 Reporting channels can be done in multiple ways;
 
 - Forking the repository, modifying the [`/block/list.txt`](https://github.com/NikoboiNFTB/DeSlop/blob/main/block/list.txt) file and submitting a pull request on [GitHub](https://github.com/NikoboiNFTB/DeSlop/pulls). This is the easiest on the back-end.
+
   - The blocklist entries **must** be in this format:
 
 ```text
@@ -75,7 +76,7 @@ Reporting channels can be done in multiple ways;
 /channel/UCDI-86yEQamXmjvvxg40cIQ
 ```
 
-  - Basically the exact contents of href="" on the feed page (because that's how it works).
+  - Basically the exact contents of href="" on the feed page.
 
   - Feel free to sort the entries, or not. I've included a handy [sort](https://github.com/NikoboiNFTB/DeSlop/blob/main/block/sort) script in the block folder.
 
