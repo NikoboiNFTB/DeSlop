@@ -23,36 +23,17 @@ They do not differ in functionality.
 
 There will **not** be an official Chrome Web Store Extension.
 
-**Recommended**: On Chromium, use the userscript + Tampermonkey
+**Recommended**: On Chromium, use Tampermonkey and the userscript.
 
-Extensions can still be installed locally (temporarily):
+1. Install [Tampermonkey from Chrome Web Store](https://chromewebstore.google.com/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo).
+2. Make sure Tampermonkey can actually *run* userscripts:
+  - Go to `chrome://extensions/`
+  - Click **Details** under Tampermonkey
+  - Enable **“Allow access to file URLs”**, **“Allow User Scripts”** and **"Developer Mode"**, then hit **"Update"**
+3. Click [the install link](https://github.com/NikoboiNFTB/DeSlop/raw/refs/heads/main/userscript/deslop-1.2.user.js) and install when prompted.
+4. Done!
 
-1. Download the extension zip file ([here](https://github.com/NikoboiNFTB/DeSlop/raw/refs/heads/main/chromium/1.2/1.2.zip)).
-
-2. Unzip it anywhere (keep it safe, you can **not** delete it later).
-
->> Alternatively, via CLI (MacOS and Linux compatible):
-
-```sh
-mkdir -p YouTube-DeSlop-1.2
-cd YouTube-DeSlop-1.2
-curl -L -o 1.2.zip https://github.com/NikoboiNFTB/DeSlop/raw/refs/heads/main/chromium/1.2/1.2.zip
-unzip -o 1.2.zip
-rm 1.2.zip
-```
-
->> If run in `~/`, the extension folder will be `~/YouTube-DeSlop-1.2`
-
-3. Go to `chrome://extensions/`.
-
-4. Enable "Developer mode" in the top-right.
-
-5. Hit "Load unpacked" from the new bar that appeared.
-
-6. Navigate to the extension **folder**. 
->> For example: `~/YouTube-DeSlop-1.2` if that's where you saved it.
-
-7. Confirm and done!
+**Not Recommended**: You *can* also add YouTube DeSlop as a temporary extension to Chromium, a directory is provided for it in `/chromium/1.2`
 
 ## Blocklist
 
