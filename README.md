@@ -58,15 +58,23 @@ rm 1.2.zip
 
 ⚠️ The list is incomplete! Your help is much appreciated! ⚠️
 
-The blocklist can be found [here](https://raw.githubusercontent.com/NikoboiNFTB/DeSlop/refs/heads/main/block/list.txt).
+The blocklist can be found in [`/block/list.txt`](https://github.com/NikoboiNFTB/DeSlop/blob/main/block/list.txt).
 
 Reporting channels can be done in multiple ways;
 
 - Submitting a pull request on [GitHub](https://github.com/NikoboiNFTB/DeSlop/pulls). This is the easiest on the back-end.
-  - The blocklist entries **must** be in this format:  
-    ```/@NikoboiNFTB```
-  - If the user has no @ username, use:  
-    ```/channel/UCDI-86yEQamXmjvvxg40cIQ```
+  - The blocklist entries **must** be in this format:
+
+```text
+/@NikoboiNFTB
+```
+
+  - If the user has no @ username, use the **channel ID**:  
+
+```text
+/channel/UCDI-86yEQamXmjvvxg40cIQ
+```
+
   - Basically the exact contents of href="" on the feed page.
   - Feel free to sort the entries, or not. I've included a handy [sort](https://github.com/NikoboiNFTB/DeSlop/blob/main/block/sort) script in the block folder.
 
