@@ -52,7 +52,7 @@ rm 1.2.zip
 6. Navigate to the extension **folder**. 
 >> For example: `~/YouTube-DeSlop-1.2` if that's where you saved it.
 
-7. Confirm
+7. Confirm and done!
 
 Or just use the userscript.
 
