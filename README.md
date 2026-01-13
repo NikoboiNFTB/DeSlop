@@ -29,8 +29,10 @@ Extensions can still be installed locally:
 
 1. Download the extension zip file ([here](https://github.com/NikoboiNFTB/DeSlop/raw/refs/heads/main/chromium/1.2/1.2.zip)).
 2. Unzip it anywhere (keep it safe, you can **not** delete it later).
->> One tap command for Linux users:
+>> One-tap command for Linux users:
 ```bash
+mkdir YouTube-DeSlop
+cd YouTube-DeSlop
 wget http://github.com/NikoboiNFTB/DeSlop/raw/refs/heads/main/chromium/1.2/1.2.zip
 unzip 1.2.zip
 ```
