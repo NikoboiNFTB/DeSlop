@@ -2,4 +2,4 @@
 
 set -e
 
-sort list.txt -o list.txt
+sort -u list.txt -o list.txt

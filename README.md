@@ -8,7 +8,7 @@ Fetches a blocklist from [GitHub](https://raw.githubusercontent.com/NikoboiNFTB/
 
 Channels that publish fully AI-generated "content" as well as channels that promote or teach how to create it qualify as AI slop, and will therefore be blocked.
 
-As a cherry on top, I *think* YouTube still counts you as having technically "seen" the videos in your feed, but decided not to click them. Which should negatively impact the slop creators' click-through rates, which is good.
+As a cherry on top, I *think* YouTube still counts you as having technically "seen" the videos in your feed, but decided not to click them. Which should negatively impact the slop creators' click-through rates, all in the background, which is good.
 
 [Contributions to the blocklist](#blocklist) are welcome!
 
@@ -91,30 +91,79 @@ Reporting channels can be done in multiple ways;
 
 ```text
 .
+├── assets
+│   ├── 20260112180516.png
+│   ├── 20260112181451.png
+│   └── 20260112181741.png
+│
 ├── block
 │   ├── list.txt
 │   └── sort
 │
 ├── chromium
 │   ├── 1.0
+│   │   ├── icons
+│   │   │   └── icon128.png
+│   │   ├── deslop-bg.js
+│   │   ├── deslop.js
+│   │   └── manifest.json
 │   ├── 1.1
-│   └── ...
+│   │   ├── icons
+│   │   │   └── icon128.png
+│   │   ├── deslop-bg.js
+│   │   ├── deslop.js
+│   │   └── manifest.json
+│   └── 1.2
+│       ├── icons
+│       │   └── icon128.png
+│       ├── deslop-bg.js
+│       ├── deslop.js
+│       └── manifest.json
 │
 ├── firefox
+│   ├── 1.0
+│   │   ├── icons
+│   │   │   └── icon128.png
+│   │   ├── deslop-bg.js
+│   │   ├── deslop.js
+│   │   └── manifest.json
 │   ├── 1.2
+│   │   ├── icons
+│   │   │   └── icon128.png
+│   │   ├── deslop-bg.js
+│   │   ├── deslop.js
+│   │   └── manifest.json
 │   ├── 1.3
-│   └── ...
+│   │   ├── icons
+│   │   │   └── icon128.png
+│   │   ├── deslop-bg.js
+│   │   ├── deslop.js
+│   │   └── manifest.json
+│   └── 1.4
+│       ├── icons
+│       │   └── icon128.png
+│       ├── deslop-bg.js
+│       ├── deslop.js
+│       └── manifest.json
 │
 ├── userscript
 │   ├── deslop-1.0.user.js
 │   ├── deslop-1.1.user.js
-│   └── ...
+│   └── deslop-1.2.user.js
 │
 ├── LICENSE
 └── README.md
 
-17 directories, 37 files
+20 directories, 45 files
 ```
+
+## Contributing
+
+Feel free to fork this repository and submit issues or pull requests if you have any suggestions or improvements. If you encounter any bugs or have feature requests, please open an issue.
+
+## Credits
+
+Created by **[Nikoboi](https://github.com/NikoboiNFTB/)**
 
 ## License
 
