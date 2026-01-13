@@ -17,11 +17,28 @@ YouTube DeSlop can be installed either as:
 
 They do not differ in functionality.
 
-There will **not** be an official Chrome Extension. I'm not sending my ID to Google, paying to be a developer, then probably get denied because Google wants to keep shoving AI slop down our throats.
+There will **not** be an official Chrome Web Store Extension.
+
+I'm not sending my ID to Google, paying to be a developer, then probably get denied because Google wants to keep shoving AI slop down our throats.
 
 ![Fuck Google](assets/20260112181741.png)
 
 ![Fuck Google](https://developer.chrome.com/static/docs/webstore/register/image/screenshot-the-chrome-we-e977f560c26da_856.png)
+
+Extensions can still be installed locally:
+
+1. Download the extension zip file ([here](https://github.com/NikoboiNFTB/DeSlop/raw/refs/heads/main/chromium/1.2/1.2.zip)).
+2. Unzip it anywhere (keep it safe, you can **not** delete it later).
+>> One tap command for Linux users:
+```bash
+wget http://github.com/NikoboiNFTB/DeSlop/raw/refs/heads/main/chromium/1.2/1.2.zip
+unzip 1.2.zip
+```
+3. Go to `chrome://extensions/`.
+4. Enable "Developer mode" in the top-right.
+5. Hit "Load unpacked" from the new bar that appeared.
+6. Navigate to the extension **folder**. 
+  - For example: `/home/ml/nikob/GitHub/NikoboiNFTB/DeSlop/chromium/1.2
 
 ## Blocklist
 
