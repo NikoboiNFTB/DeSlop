@@ -25,7 +25,7 @@ They do not differ in functionality.
 
 There will **not** be an official Chrome Web Store Extension.
 
-I'm not doing Google's age verification bullshit and paying them just to get denied because they love AI slop.
+I'm not doing Google's age verification bullshit and paying the fee just to get denied because they love AI slop.
 
 ![Fuck Google](/assets/20260112181741.png)
 
@@ -58,26 +58,26 @@ Reporting channels can be done in multiple ways;
 
 - Forking the repository, modifying the [`/block/list.txt`](https://github.com/NikoboiNFTB/DeSlop/blob/main/block/list.txt) file and submitting a pull request on [GitHub](https://github.com/NikoboiNFTB/DeSlop/pulls). This is the easiest on the back-end.
 
-  - The blocklist entries **must** be in this format:
+- The blocklist entries **must** be in this format:
 
 ```text
 /@NikoboiNFTB
 ```
 
-  - If the user has no @ username, use the **channel ID**:
+- If the user has no @ username, use the **channel ID**:
 
 ```text
 /channel/UCDI-86yEQamXmjvvxg40cIQ
 ```
 
-  - Basically the exact contents of href="" on the feed page.
+- Basically the exact contents of href="" on the feed page.
 
-  - Feel free to sort the entries, or not. I've included a handy [sort](https://github.com/NikoboiNFTB/DeSlop/blob/main/block/sort) script in the block folder.
+- Feel free to sort the entries, or not. I've included a handy [sort](https://github.com/NikoboiNFTB/DeSlop/blob/main/block/sort) script in the block folder.
 
 - Email me at [my support email](mailto:support@nikoboi.dev) and I will add the channel manually.
-  - Preferably a channel link in this case.
-  - Your email will not be used for anything, ever.
-    - Feel free to use any throwaway email, I don't care.
+- Preferably a channel link in this case.
+- Your email will not be used for anything, ever.
+- Feel free to use any throwaway email, I don't care.
 
 >> Google Forms for anonymous submissions coming soon!
 
