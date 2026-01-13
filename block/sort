@@ -2,4 +2,21 @@
 
 set -e
 
-sort -u list.txt -o list.txt
+# Establish file names
+FILE="list.txt"
+TMPFILE=$(mktemp)
+
+# Preserve GUIDE
+grep '^#' "$FILE" > "$TMPFILE"
+
+# Blank line after GUIDE
+echo "" >> "$TMPFILE"
+
+# Sort /@ entries
+grep '^/@' "$FILE" | sort -u >> "$TMPFILE"
+
+# Sort /channel entries
+grep '^/channel/' "$FILE" | sort -u >> "$TMPFILE"
+
+# Replace original file
+mv "$TMPFILE" "$FILE"

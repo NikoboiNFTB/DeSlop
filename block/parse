@@ -2,4 +2,5 @@
 
 set -e
 
+# Remove full link, keep channel ID
 sed -i 's|https://www.youtube.com||' "list.txt"

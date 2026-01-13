@@ -1,3 +1,15 @@
+# --- GUIDE FOR CONTRIBUTORS ---
+#
+#   Simply paste channel links below, ONE PER ROW.
+#   Then just submit the pull request and let me do the rest.
+#   (Don't worry, it takes me 2 short commands, it's no bother.)
+#
+#   If you're editing locally, you can:
+#       1. Run the "parse" script to clean up YouTube URLs.
+#       2. Run the "sort" script to sort entries alphabetically.
+#
+# --- GUIDE END ---
+
 /@bballexplainedd
 /@CosmicEcho10x
 /@Dankieft
@@ -16,12 +28,3 @@
 /@SleepyTimeHistoryYT
 /@wealth_wise007
 /@WildRealms2345
-
-TESTING AREA
-
-https://www.youtube.com/channel/UCSJ4gkVC6NrvII8umztf0Ow
-https://www.youtube.com/@OutdoorBoys
-https://www.youtube.com/@MrBeast
-https://www.youtube.com/@WeirdReality-w4b
-https://www.youtube.com/@Znxhub
-https://www.youtube.com/@Grandes%C3%89xitos80s90s-t6i
