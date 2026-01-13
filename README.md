@@ -62,7 +62,7 @@ The blocklist can be found in [`/block/list.txt`](https://github.com/NikoboiNFTB
 
 Reporting channels can be done in multiple ways;
 
-- Submitting a pull request on [GitHub](https://github.com/NikoboiNFTB/DeSlop/pulls). This is the easiest on the back-end.
+- Modifying the [`/block/list.txt`](https://github.com/NikoboiNFTB/DeSlop/blob/main/block/list.txt) file and submitting a pull request on [GitHub](https://github.com/NikoboiNFTB/DeSlop/pulls). This is the easiest on the back-end.
   - The blocklist entries **must** be in this format:
 
 ```text
