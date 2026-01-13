@@ -27,7 +27,7 @@ There will **not** be an official Chrome Web Store Extension.
 
 1. Install [Tampermonkey from Chrome Web Store](https://chromewebstore.google.com/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo).
 2. Make sure Tampermonkey can actually *run* userscripts:
-  - Go to [`chrome://extensions/`](chrome://extensions/)
+  - Go to `chrome://extensions/`
   - Click **Details** under Tampermonkey
   - Enable **“Allow access to file URLs”**, **“Allow User Scripts”** and **"Developer Mode"**, then hit **"Update"**
 3. Click [the install link](https://github.com/NikoboiNFTB/DeSlop/raw/refs/heads/main/userscript/deslop-1.2.user.js) and install when prompted.
@@ -35,7 +35,11 @@ There will **not** be an official Chrome Web Store Extension.
 
 **Not Recommended**: You *can* also add YouTube DeSlop as a temporary extension to Chromium, a directory is provided for it in `/chromium/1.2`
 
-1. Go to [`chrome://extensions/`](chrome://extensions/)
+1. Go to `chrome://extensions/`
+2. Enable **Developer Mode** in the top-right corner.
+3. Click **Load unpacked** from the newly appeared bar.
+4. Navigate to the extension folder (oh yeah, download and unzip the extension ([here](https://github.com/NikoboiNFTB/DeSlop/raw/refs/heads/main/chromium/1.2/1.2.zip))) and confirm.
+5. Enjoy! Until you restart your browser, then it's gone.
 
 ## Blocklist
 
