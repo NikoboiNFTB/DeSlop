@@ -8,6 +8,10 @@ Fetches a blocklist from [GitHub](https://raw.githubusercontent.com/NikoboiNFTB/
 
 Channels that publish fully AI-generated "content" as well as channels that promote or teach how to create it qualify as AI slop, and will therefore be blocked.
 
+As a cherry on top, I *think* YouTube still counts you as having technically "seen" the videos in your feed, but decided not to click them. Which should negatively impact the slop creators' click-through rates, which is good.
+
+[Contributions to the blocklist](#blocklist) are welcome!
+
 ## Installation
 
 YouTube DeSlop can be installed either as:
@@ -19,13 +23,9 @@ They do not differ in functionality.
 
 There will **not** be an official Chrome Web Store Extension.
 
-I'm not sending my ID to Google, paying to be a developer, then probably get denied because Google wants to keep shoving AI slop down our throats.
+**Recommended**: On Chromium, use the userscript + Tampermonkey
 
-![Fuck Google](assets/20260112181741.png)
-
-![Fuck Google](https://developer.chrome.com/static/docs/webstore/register/image/screenshot-the-chrome-we-e977f560c26da_856.png)
-
-Extensions can still be installed locally:
+Extensions can still be installed locally (temporarily):
 
 1. Download the extension zip file ([here](https://github.com/NikoboiNFTB/DeSlop/raw/refs/heads/main/chromium/1.2/1.2.zip)).
 
@@ -53,8 +53,6 @@ rm 1.2.zip
 >> For example: `~/YouTube-DeSlop-1.2` if that's where you saved it.
 
 7. Confirm and done!
-
-Or just use the userscript.
 
 ## Blocklist
 
