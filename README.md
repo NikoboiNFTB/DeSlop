@@ -23,7 +23,9 @@ They do not differ in functionality.
 
 ### Chromium
 
-There will **not** be an official Chrome Web Store Extension. I'm not doing Google's age verification bullshit just to get denied because big G loves AI slop.
+There will **not** be an official Chrome Web Store Extension.
+
+I'm not doing Google's age verification bullshit.
 
 ![Fuck Google](/assets/20260112181741.png)
 
