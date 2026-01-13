@@ -25,7 +25,7 @@ They do not differ in functionality.
 
 There will **not** be an official Chrome Web Store Extension.
 
-I'm not doing Google's age verification bullshit.
+I'm not doing Google's age verification bullshit and paying them just to get denied because they love AI slop.
 
 ![Fuck Google](/assets/20260112181741.png)
 
