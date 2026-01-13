@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+
+set -e
+
+sed -i 's|https://www.youtube.com||' "list.txt"

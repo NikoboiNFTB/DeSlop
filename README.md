@@ -60,9 +60,23 @@ There are multiple ways to report channels.
 
 #### Submit a Pull Request
 
-Forking the repository, modifying the [`/block/list.txt`](https://github.com/NikoboiNFTB/DeSlop/blob/main/block/list.txt) file and submitting a pull request on [GitHub](https://github.com/NikoboiNFTB/DeSlop/pulls). This is the easiest on the back-end.
+This is the easiest on the back-end. Just follow these steps:
 
-- The blocklist entries **must** be in this format:
+1. Fork the repository.
+  - Go to the [GitHub Repository](https://github.com/NikoboiNFTB/DeSlop) and click **Fork** in the top-right corner.
+  - This creates a copy of the repository under your own GitHub account, which you can edit freely.
+2. Modify the blocklist.
+  - Locate the `/block/list.txt` file in your forked repository.
+  - Make your changes.
+    - Feel free to just paste the channel links, and let me parse the URL's for the correct filters. I will make a script to automate it, just like the `sort` script. My goal is to make this as easy as possible for you.
+3. Submit a pull request.
+  - Step 1. Go to the [pulls](https://github.com/NikoboiNFTB/DeSlop/pulls) page.
+  - Step 2. ???
+  - Step 3. Profit
+
+>> If you're seeing this, step 3 is a work in progress.
+
+- The final blocklist entries **must** be in this format:
 
 ```text
 /@NikoboiNFTB
@@ -77,6 +91,10 @@ Forking the repository, modifying the [`/block/list.txt`](https://github.com/Nik
 - Basically the exact contents of href="" on the feed page.
 
 - Feel free to sort the entries, or not. I've included a handy [sort](https://github.com/NikoboiNFTB/DeSlop/blob/main/block/sort) script in the block folder.
+
+#### Open an Issue
+
+You can also open an issue, where you link the channel that should be blocked. There will be an issue template you can use.
 
 #### By Email
 
