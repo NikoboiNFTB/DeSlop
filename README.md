@@ -21,7 +21,11 @@ YouTube DeSlop can be installed either as:
 
 They do not differ in functionality.
 
-There will **not** be an official Chrome Web Store Extension.
+### Chromium
+
+There will **not** be an official Chrome Web Store Extension. I'm not doing Google's age verification bullshit just to get denied because big G loves AI slop.
+
+![Fuck Google](/assets/20260112181741.png)
 
 **Recommended**: On Chromium, use Tampermonkey and the userscript.
 
