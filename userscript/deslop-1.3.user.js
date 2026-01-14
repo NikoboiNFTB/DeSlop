@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         YouTube DeSlop
 // @namespace    https://github.com/NikoboiNFTB/DeSlop
-// @version      1.2
+// @version      1.3
 // @description  Remove AI slop from your YouTube feed and search results. Blocklist-driven.
 // @author       Nikoboi
 // @match        https://www.youtube.com/*
@@ -38,7 +38,7 @@
                     res.responseText
                         .split('\n')
                         .map(l => l.trim())
-                        .filter(Boolean)
+                        .filter(l => l && !l.startsWith('#'))
                 );
 
                 console.log('DeSlop: blocklist loaded', blockedChannels);
