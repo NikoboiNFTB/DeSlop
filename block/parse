@@ -2,5 +2,23 @@
 
 set -e
 
-# Remove full link, keep channel ID
-sed -i 's|https://www.youtube.com||' "list.txt"
+# Step 1: Parse YouTube links
+#   In order:
+#   - Remove the YouTube domain from links.
+#   - Remove everything past "/@<ChannelName>" from links.
+#   - Remove everything past "/channel/<ChannelID>" from links.
+#   - Remove everything past "/c/<ChannelID>" from links.
+#   All of these ignore comments, I.E. lines starting with #
+sed -i '/^#/! {
+  s|https://www.youtube.com||;
+  s|^\(/@[^/]*\)/.*|\1|;
+  s|^\(/channel/[^/]*\)/.*|\1|;
+  s|^\(/c/[^/]*\)/.*|\1|
+}' list.txt
+
+# Step 2: Remove invalid entries
+#   Keep only lines that are either:
+#   - comments starting with #
+#   - valid channels: /@, /channel/UC, /c/
+#   So this will remove any lingering /about/, /account/ or /ads/
+grep -E '^#|^(/@|/channel/UC|/c/)' list.txt > tmp && mv tmp list.txt
