@@ -39,12 +39,12 @@ I'm not doing Google's age verification bullshit and paying the fee just to get 
 3. Click [the install link](https://github.com/NikoboiNFTB/DeSlop/raw/refs/heads/main/userscript/deslop-1.3.user.js) and install when prompted.
 4. Done!
 
-**Not Recommended**: You *can* also add YouTube DeSlop as a temporary extension to Chromium, a directory is provided for it in `/chromium/1.2`
+**Not Recommended**: You *can* also add YouTube DeSlop as a temporary extension to Chromium, a directory is provided for it in `/chromium/`
 
 1. Go to `chrome://extensions/`
 2. Enable **Developer Mode** in the top-right corner.
 3. Click **Load unpacked** from the newly appeared bar.
-4. Navigate to the extension folder and confirm.
+4. Navigate to the extension **folder** and confirm.
   - Oh yeah, download and unzip the extension ([here](https://github.com/NikoboiNFTB/DeSlop/raw/refs/heads/main/chromium/1.3/1.3.zip))
 5. Enjoy! Until you restart your browser, then it may or may not be gone.
 
@@ -99,7 +99,7 @@ You will also be able to contact me on any social media platform. Links coming s
 ```text
 .
 ├── assets
-│   └── 20260112181741.png
+│   └── YYYYMMDDHHMMSS.png
 │
 ├── block
 │   ├── list.txt
@@ -107,68 +107,30 @@ You will also be able to contact me on any social media platform. Links coming s
 │   └── sort
 │
 ├── chromium
-│   ├── 1.0
-│   │   ├── icons
-│   │   │   └── icon128.png
-│   │   ├── 1.0.zip
-│   │   ├── deslop-bg.js
-│   │   ├── deslop.js
-│   │   └── manifest.json
-│   ├── 1.1
-│   │   ├── icons
-│   │   │   └── icon128.png
-│   │   ├── 1.1.zip
-│   │   ├── deslop-bg.js
-│   │   ├── deslop.js
-│   │   └── manifest.json
-│   └── 1.2
+│   └── x.x
 │       ├── icons
 │       │   └── icon128.png
-│       ├── 1.2.zip
+│       ├── x.x.zip
 │       ├── deslop-bg.js
 │       ├── deslop.js
 │       └── manifest.json
 │
 ├── firefox
-│   ├── 1.0
-│   │   ├── icons
-│   │   │   └── icon128.png
-│   │   ├── 1.0.zip
-│   │   ├── deslop-bg.js
-│   │   ├── deslop.js
-│   │   └── manifest.json
-│   ├── 1.2
-│   │   ├── icons
-│   │   │   └── icon128.png
-│   │   ├── 1.2.zip
-│   │   ├── deslop-bg.js
-│   │   ├── deslop.js
-│   │   └── manifest.json
-│   ├── 1.3
-│   │   ├── icons
-│   │   │   └── icon128.png
-│   │   ├── 1.3.zip
-│   │   ├── deslop-bg.js
-│   │   ├── deslop.js
-│   │   └── manifest.json
-│   └── 1.4
+│   └── x.x
 │       ├── icons
 │       │   └── icon128.png
-│       ├── 1.4.zip
+│       ├── x.x.zip
 │       ├── deslop-bg.js
 │       ├── deslop.js
 │       └── manifest.json
 │
 ├── userscript
-│   ├── deslop-1.0.user.js
-│   ├── deslop-1.1.user.js
-│   ├── deslop-1.2.user.js
-│   └── todo.js
+│   └── deslop-x.x.user.js
 │
 ├── LICENSE
 └── README.md
 
-20 directories, 45 files
+24 directories, 55 files
 ```
 
 ## Contributing
