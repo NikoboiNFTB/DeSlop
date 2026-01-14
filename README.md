@@ -77,9 +77,9 @@ This is the easiest on the back-end. You can follow these steps:
 
 #### Open an Issue
 
-You can also open an issue, where you link the channel that should be blocked. There will be an issue template you can use.
+You can also [open an issue](https://github.com/NikoboiNFTB/DeSlop/issues), where you link the channel that should be blocked. There will be an issue template you can use.
 
-#### By Email
+#### Email
 
 Email me at [my support email](mailto:support@nikoboi.dev) and I will add the channel manually.
   - Preferably a channel link in this case.
@@ -90,35 +90,41 @@ Email me at [my support email](mailto:support@nikoboi.dev) and I will add the ch
 
 Google Forms for anonymous submissions coming soon!
 
+#### Social Medias
+
+You will also be able to contact me on any social media platform. Links coming soon!
+
 ## File Structure
 
 ```text
 .
 ├── assets
-│   ├── 20260112180516.png
-│   ├── 20260112181451.png
 │   └── 20260112181741.png
 │
 ├── block
 │   ├── list.txt
+│   ├── parse
 │   └── sort
 │
 ├── chromium
 │   ├── 1.0
 │   │   ├── icons
 │   │   │   └── icon128.png
+│   │   ├── 1.0.zip
 │   │   ├── deslop-bg.js
 │   │   ├── deslop.js
 │   │   └── manifest.json
 │   ├── 1.1
 │   │   ├── icons
 │   │   │   └── icon128.png
+│   │   ├── 1.1.zip
 │   │   ├── deslop-bg.js
 │   │   ├── deslop.js
 │   │   └── manifest.json
 │   └── 1.2
 │       ├── icons
 │       │   └── icon128.png
+│       ├── 1.2.zip
 │       ├── deslop-bg.js
 │       ├── deslop.js
 │       └── manifest.json
@@ -127,24 +133,28 @@ Google Forms for anonymous submissions coming soon!
 │   ├── 1.0
 │   │   ├── icons
 │   │   │   └── icon128.png
+│   │   ├── 1.0.zip
 │   │   ├── deslop-bg.js
 │   │   ├── deslop.js
 │   │   └── manifest.json
 │   ├── 1.2
 │   │   ├── icons
 │   │   │   └── icon128.png
+│   │   ├── 1.2.zip
 │   │   ├── deslop-bg.js
 │   │   ├── deslop.js
 │   │   └── manifest.json
 │   ├── 1.3
 │   │   ├── icons
 │   │   │   └── icon128.png
+│   │   ├── 1.3.zip
 │   │   ├── deslop-bg.js
 │   │   ├── deslop.js
 │   │   └── manifest.json
 │   └── 1.4
 │       ├── icons
 │       │   └── icon128.png
+│       ├── 1.4.zip
 │       ├── deslop-bg.js
 │       ├── deslop.js
 │       └── manifest.json
@@ -152,7 +162,8 @@ Google Forms for anonymous submissions coming soon!
 ├── userscript
 │   ├── deslop-1.0.user.js
 │   ├── deslop-1.1.user.js
-│   └── deslop-1.2.user.js
+│   ├── deslop-1.2.user.js
+│   └── todo.js
 │
 ├── LICENSE
 └── README.md
