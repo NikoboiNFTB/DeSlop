@@ -4,9 +4,9 @@ Userscript and browser extension for filtering out AI slop from your YouTube fee
 
 ## Description
 
-Fetches a [blocklist](https://raw.githubusercontent.com/NikoboiNFTB/DeSlop/refs/heads/main/block/list.txt) from GitHub and removes any and all videos from your feed that matches any entry on that list.
+Fetches a [blocklist from GitHub](https://raw.githubusercontent.com/NikoboiNFTB/DeSlop/refs/heads/main/block/list.txt) and removes any and all videos from your feed that matches any entry on that list. Removes videos from Home and Subscriptions, and both videos and channels from Search.
 
-Channels that publish fully AI-generated "content" as well as channels that promote or teach how to create it qualify as AI slop, and will therefore be blocked.
+Channels that publish fully AI-generated content as well as channels that promote or teach how to create it qualify as AI slop, and will therefore be blocked.
 
 As a cherry on top, I *think* YouTube still counts you as having technically "seen" the videos in your feed, but decided not to click them. Which should negatively impact the slop creators' click-through rates, all in the background, which is good.
 
@@ -130,7 +130,7 @@ You will also be able to contact me on any social media platform. Links coming s
 ├── LICENSE
 └── README.md
 
-24 directories, 55 files
+26 directories, 58 files
 ```
 
 ## Contributing
