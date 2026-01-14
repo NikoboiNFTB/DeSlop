@@ -2,7 +2,6 @@
 #
 #   Simply paste channel links below, ONE PER ROW.
 #   Then just submit the pull request and let me do the rest.
-#   (Don't worry, it takes me 2 short commands, it's no bother.)
 #
 #   If you're editing locally, you can:
 #       1. Run the "parse" script to clean up YouTube URLs.

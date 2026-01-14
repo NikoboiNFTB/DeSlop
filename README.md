@@ -67,33 +67,13 @@ This is the easiest on the back-end. You can follow these steps:
   - This creates a copy of the repository under your own GitHub account, which you can edit freely.
 2. Modify the blocklist.
   - Locate the `/block/list.txt` file in your forked repository.
-  - Make your changes.
-    - Feel free to just paste the channel links, and let me parse the entries.
-    - I have included two scripts in the [`/block/`](https://github.com/NikoboiNFTB/DeSlop/tree/main/block) folder:
-      - [`parse`](https://github.com/NikoboiNFTB/DeSlop/blob/main/block/parse) will go through each entry, correcting them intro the right format.
-      - [`sort`](https://github.com/NikoboiNFTB/DeSlop/blob/main/block/sort) will sort each entry into alphabetical order.
+  - There is a GUIDE at the top of the blocklist file.
 3. Submit a pull request.
   - Step 1. Go to the [pulls](https://github.com/NikoboiNFTB/DeSlop/pulls) page.
   - Step 2. ???
   - Step 3. Profit
 
 >> If you're seeing this, step 3 is a work in progress.
-
-- The final blocklist entries **must** be in this format:
-
-```text
-/@NikoboiNFTB
-```
-
-- If the user has no @ username, use the **channel ID**:
-
-```text
-/channel/UCDI-86yEQamXmjvvxg40cIQ
-```
-
-- Basically the exact contents of href="" on the feed page.
-
-- Feel free to sort the entries, or not. I've included a handy [sort](https://github.com/NikoboiNFTB/DeSlop/blob/main/block/sort) script in the block folder.
 
 #### Open an Issue
 
