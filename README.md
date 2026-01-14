@@ -60,7 +60,7 @@ There are multiple ways to report channels.
 
 #### Submit a Pull Request
 
-This is the easiest on the back-end. Just follow these steps:
+This is the easiest on the back-end. You can follow these steps:
 
 1. Fork the repository.
   - Go to the [GitHub Repository](https://github.com/NikoboiNFTB/DeSlop) and click **Fork** in the top-right corner.
@@ -68,7 +68,10 @@ This is the easiest on the back-end. Just follow these steps:
 2. Modify the blocklist.
   - Locate the `/block/list.txt` file in your forked repository.
   - Make your changes.
-    - Feel free to just paste the channel links, and let me parse the URL's for the correct filters. I will make a script to automate it, just like the `sort` script. My goal is to make this as easy as possible for you.
+    - Feel free to just paste the channel links, and let me parse the entries.
+    - I have included two scripts in the [`/block/`](https://github.com/NikoboiNFTB/DeSlop/tree/main/block) folder:
+      - [`parse`](https://github.com/NikoboiNFTB/DeSlop/blob/main/block/parse) will go through each entry, correcting them intro the right format.
+      - [`sort`](https://github.com/NikoboiNFTB/DeSlop/blob/main/block/sort) will sort each entry into alphabetical order.
 3. Submit a pull request.
   - Step 1. Go to the [pulls](https://github.com/NikoboiNFTB/DeSlop/pulls) page.
   - Step 2. ???
@@ -183,9 +186,19 @@ Feel free to fork this repository and submit issues or pull requests if you have
 
 ## Credits
 
-Created by **[Nikoboi](https://github.com/NikoboiNFTB/)**  
-Big thank you to [FeedSpot for providing 100 channels](https://videos.feedspot.com/ai_youtube_channels/) to add to the blocklist!  
-  Another thank you to [Link Gopher](https://sites.google.com/site/linkgopher/), which allowed me to yoink all links very easily.
+Created by **[Nikoboi](https://github.com/NikoboiNFTB/)**
+
+Massive thank you to [Link Gopher](https://sites.google.com/site/linkgopher/), which allows me to yoink all YouTube links from sites very easily.
+
+The following websites provided very convenient blocklists:
+- Honorable mention:
+  - [FeedSpot](https://videos.feedspot.com/ai_youtube_channels/), providing 76 channels!
+- Adequate mentions:
+  - [Analytics Vidhya](https://www.analyticsvidhya.com/blog/2025/12/best-ai-youtube-channels/), 12 channels.
+  - [Your Dream AI](https://yourdreamai.com/best-ai-focused-youtube-channels/), 11 channels.
+  - [Useful AI](https://usefulai.com/youtube-channels), 7 channels.
+  - [Awisee](https://awisee.com/blog/best-ai-youtubers/), 5 channels.
+  - [DEV.to](https://dev.to/andrewbaisden/21-must-subscribe-ai-youtube-channels-for-learning-and-inspiration-12m3), 21 channels.
 
 ## License
 
