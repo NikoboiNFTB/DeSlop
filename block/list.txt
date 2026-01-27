@@ -9,7 +9,6 @@
 #
 # --- GUIDE END ---
 
-/@3blue1brown
 /@aiadvantage
 /@AiAngel
 /@aiexplained-official
