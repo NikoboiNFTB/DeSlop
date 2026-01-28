@@ -1,6 +1,6 @@
-name: Report Channel
+name: Channel Report
 description: Report a channel as AI slop.
-title: "[Slop Report] "
+title: "[Channel Report] "
 labels: Report
 body:
   - type: textarea

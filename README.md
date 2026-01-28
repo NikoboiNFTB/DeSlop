@@ -77,7 +77,7 @@ This is the easiest on the back-end. You can follow these steps:
 
 #### Open an Issue
 
-You can also [open an issue](https://github.com/NikoboiNFTB/DeSlop/issues), where you link the channel that should be blocked. There will be an issue template you can use.
+You can also [open an issue](https://github.com/NikoboiNFTB/DeSlop/issues/new?template=channel_report.yml), where you link the channel(s) that should be blocked. There will be an issue template you can use.
 
 #### Email
 
@@ -93,6 +93,10 @@ Google Forms for anonymous submissions coming soon!
 #### Social Medias
 
 You will also be able to contact me on any social media platform. Links coming soon!
+
+### Entry Appeals
+
+See an entry that shouldn't be there? [Submit a report](https://github.com/NikoboiNFTB/DeSlop/issues/new?template=channel_appeal.yml).
 
 ## File Structure
 
