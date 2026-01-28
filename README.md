@@ -157,6 +157,9 @@ The following websites provided very convenient blocklists:
   - [Awisee](https://awisee.com/blog/best-ai-youtubers/), 5 channels.
   - [DEV.to](https://dev.to/andrewbaisden/21-must-subscribe-ai-youtube-channels-for-learning-and-inspiration-12m3), 21 channels.
 
+Dishonorable mention:
+- YouTube, for not marking AI slop -_-
+
 ## License
 
 This project is licenced under the GNU General Public License V3. See [LICENSE](LICENSE) for details.
