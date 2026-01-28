@@ -3,16 +3,10 @@ description: Report a channel as AI slop.
 title: "[Slop Report] "
 labels: Report
 body:
-  - type: markdown
-    attributes:
-      value: |
-        Paste all relevant links below. You can paste multiple links.  
-        Each link should be on its own line.
-
   - type: textarea
     id: links
     attributes:
-      label: Links
+      label: Channel Links
       description: Paste all relevant links below. You can paste multiple links.  
                    Each link should be on its own line.
       placeholder: "https://example.com/1\nhttps://example.com/2\nhttps://example.com/3"
