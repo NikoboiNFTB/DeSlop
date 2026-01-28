@@ -16,7 +16,7 @@ As a cherry on top, I *think* YouTube still counts you as having technically "se
 
 YouTube DeSlop can be installed either as:
 - [A Firefox Add-on](https://addons.mozilla.org/en-US/firefox/addon/youtube-deslop/)
-- [A Userscript](https://github.com/NikoboiNFTB/DeSlop/raw/refs/heads/main/userscript/deslop-1.3.user.js)
+- [A Userscript](https://github.com/NikoboiNFTB/DeSlop/raw/refs/heads/main/userscript/deslop-1.4.user.js)
   - Userscript Managers: ([Firefox](https://addons.mozilla.org/en-US/firefox/addon/violentmonkey/)/[Chromium](https://chromewebstore.google.com/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo))
 
 They do not differ in functionality.
@@ -36,7 +36,7 @@ I'm not doing Google's age verification bullshit and paying the fee just to get 
   - Go to `chrome://extensions/`
   - Click **Details** under Tampermonkey
   - Enable **“Allow access to file URLs”**, **“Allow User Scripts”** and **"Developer Mode"**, then hit **"Update"**
-3. Click [the install link](https://github.com/NikoboiNFTB/DeSlop/raw/refs/heads/main/userscript/deslop-1.3.user.js) and install when prompted.
+3. Click [the install link](https://github.com/NikoboiNFTB/DeSlop/raw/refs/heads/main/userscript/deslop-1.4.user.js) and install when prompted.
 4. Done!
 
 **Not Recommended**: You *can* also add YouTube DeSlop as a temporary extension to Chromium, a directory is provided for it in `/chromium/`
@@ -45,7 +45,7 @@ I'm not doing Google's age verification bullshit and paying the fee just to get 
 2. Enable **Developer Mode** in the top-right corner.
 3. Click **Load unpacked** from the newly appeared bar.
 4. Navigate to the extension **folder** and confirm.
-  - Oh yeah, download and unzip the extension ([here](https://github.com/NikoboiNFTB/DeSlop/raw/refs/heads/main/chromium/1.3/1.3.zip))
+  - Oh yeah, download and unzip the extension ([here](https://github.com/NikoboiNFTB/DeSlop/raw/refs/heads/main/chromium/1.4/1.4.zip))
 5. Enjoy! Until you restart your browser, then it may or may not be gone.
 
 ## Blocklist
