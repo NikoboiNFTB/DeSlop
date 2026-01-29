@@ -1,0 +1,41 @@
+{
+  "manifest_version": 2,
+  "name": "YouTube DeSlop",
+  "version": "1.7",
+  "description": "Remove AI slop from your YouTube feed. Blocklist-driven.",
+  "author": "Nikoboi",
+  "icons": {
+    "256": "icons/icon.svg"
+  },
+  "permissions": [
+    "https://www.youtube.com/*",
+    "https://raw.githubusercontent.com/*"
+  ],
+  "content_scripts": [
+    {
+      "matches": [
+        "https://www.youtube.com/*"
+      ],
+      "js": [
+        "deslop.js"
+      ],
+      "run_at": "document_idle"
+    }
+  ],
+  "background": {
+    "scripts": [
+      "deslop-bg.js"
+    ],
+    "persistent": false
+  },
+  "browser_specific_settings": {
+    "gecko": {
+      "id": "youtube-deslop@nikoboi.dev",
+      "data_collection_permissions": {
+        "required": [
+          "none"
+        ]
+      }
+    }
+  }
+}
