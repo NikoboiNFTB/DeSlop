@@ -25,12 +25,12 @@ YouTube DeSlop can be installed as [A Firefox Add-on](https://addons.mozilla.org
 You can add YouTube DeSlop as a local extension to Chromium, a directory is provided for it in `/chromium/`.
 
 1. Download [the zip file](https://github.com/NikoboiNFTB/DeSlop/raw/refs/heads/main/chromium/1.6/1.6.zip) and extract it anywhere.
-1. Go to `chrome://extensions/`
-2. Enable **Developer Mode** in the top-right corner.
-3. Click **Load unpacked** from the newly appeared bar.
-4. Navigate to the extension **folder** and confirm.
+2. Go to `chrome://extensions/`
+3. Enable **Developer Mode** in the top-right corner.
+4. Click **Load unpacked** from the newly appeared bar.
+5. Navigate to the extension **folder** and confirm.
   - Folder, not the zip file.
-5. Done!
+6. Done!
 
 #### Note
 
