@@ -40,6 +40,8 @@ I'm not doing Google's age verification and paying the fee just to get denied be
 
 ![Fuck Google](/assets/20260112181741.png)
 
+Edge Add-ons or Brave Browser Extensions are not entirely out of the question, for now.
+
 ### Userscript
 
 1. Install your favorite userscript manager.
