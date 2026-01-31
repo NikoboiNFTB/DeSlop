@@ -44,10 +44,10 @@ I'm not doing Google's age verification and paying the fee just to get denied be
 
 1. Install your favorite userscript manager.
    - ([Violentmonkey for Firefox](https://addons.mozilla.org/en-US/firefox/addon/violentmonkey/)/[Tampermonkey for Chromium](https://chromewebstore.google.com/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo)).
-> On Chromium, make sure Tampermonkey can actually *run* userscripts:
-> Go to `chrome://extensions/`
-> Click **Details** under Tampermonkey
-> Enable **“Allow access to file URLs”**, **“Allow User Scripts”** and **"Developer Mode"**, then hit **"Update"**
+   - On Chromium, make sure Tampermonkey can actually *run* userscripts:
+     1. Go to `chrome://extensions/`
+     2. Click **Details** under Tampermonkey
+     3. Enable **“Allow access to file URLs”**, **“Allow User Scripts”** and **"Developer Mode"**, then hit **"Update"**
 2. Click [the install link](https://github.com/NikoboiNFTB/DeSlop/raw/refs/heads/main/userscript/deslop-1.5.user.js) and install when prompted.
 3. Done!
 
