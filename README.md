@@ -14,39 +14,42 @@ As a cherry on top, I *think* YouTube still counts you as having technically "se
 
 ## Installation
 
-YouTube DeSlop can be installed either as:
-- [A Firefox Add-on](https://addons.mozilla.org/en-US/firefox/addon/youtube-deslop/)
-- [A Userscript](https://github.com/NikoboiNFTB/DeSlop/raw/refs/heads/main/userscript/deslop-1.5.user.js)
-  - Userscript Managers: ([Firefox](https://addons.mozilla.org/en-US/firefox/addon/violentmonkey/)/[Chromium](https://chromewebstore.google.com/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo))
+The functionality is identical across all mediums.
 
-They do not differ in functionality.
+### Firefox
+
+YouTube DeSlop can be installed as [A Firefox Add-on](https://addons.mozilla.org/firefox/addon/youtube-deslop/).
 
 ### Chromium
 
-There will **not** be an official Chrome Web Store Extension.
+You can add YouTube DeSlop as a local extension to Chromium, a directory is provided for it in `/chromium/`.
 
-I'm not doing Google's age verification bullshit and paying the fee just to get denied because they love AI slop.
-
-![Fuck Google](/assets/20260112181741.png)
-
-**Recommended**: On Chromium, use Tampermonkey and the userscript.
-
-1. Install [Tampermonkey from Chrome Web Store](https://chromewebstore.google.com/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo).
-2. Make sure Tampermonkey can actually *run* userscripts:
-  - Go to `chrome://extensions/`
-  - Click **Details** under Tampermonkey
-  - Enable **“Allow access to file URLs”**, **“Allow User Scripts”** and **"Developer Mode"**, then hit **"Update"**
-3. Click [the install link](https://github.com/NikoboiNFTB/DeSlop/raw/refs/heads/main/userscript/deslop-1.5.user.js) and install when prompted.
-4. Done!
-
-**Not Recommended**: You *can* also add YouTube DeSlop as a temporary extension to Chromium, a directory is provided for it in `/chromium/`
-
+1. Download [the zip file](https://github.com/NikoboiNFTB/DeSlop/raw/refs/heads/main/chromium/1.6/1.6.zip) and extract it anywhere.
 1. Go to `chrome://extensions/`
 2. Enable **Developer Mode** in the top-right corner.
 3. Click **Load unpacked** from the newly appeared bar.
 4. Navigate to the extension **folder** and confirm.
-  - Oh yeah, download and unzip the extension ([here](https://github.com/NikoboiNFTB/DeSlop/raw/refs/heads/main/chromium/1.5/1.5.zip))
-5. Enjoy! Until you restart your browser, then it may or may not be gone.
+  - Folder, not the zip file.
+5. Done!
+
+#### Note
+
+DeSlop will **not** be on the Chrome Web Store.
+
+I'm not doing Google's age verification and paying the fee just to get denied because they love AI slop.
+
+![Fuck Google](/assets/20260112181741.png)
+
+### Userscript
+
+1. Install your favorite userscript manager.
+  - ([Violentmonkey for Firefox](https://addons.mozilla.org/en-US/firefox/addon/violentmonkey/)/[Tampermonkey for Chromium](https://chromewebstore.google.com/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo)).
+> On Chromium, make sure Tampermonkey can actually *run* userscripts:
+> Go to `chrome://extensions/`
+> Click **Details** under Tampermonkey
+> Enable **“Allow access to file URLs”**, **“Allow User Scripts”** and **"Developer Mode"**, then hit **"Update"**
+2. Click [the install link](https://github.com/NikoboiNFTB/DeSlop/raw/refs/heads/main/userscript/deslop-1.5.user.js) and install when prompted.
+3. Done!
 
 ## Blocklist
 
