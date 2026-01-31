@@ -29,7 +29,7 @@ You can add YouTube DeSlop as a local extension to Chromium, a directory is prov
 3. Enable **Developer Mode** in the top-right corner.
 4. Click **Load unpacked** from the newly appeared bar.
 5. Navigate to the extension **folder** and confirm.
-  - Folder, not the zip file.
+   - Folder, not the zip file.
 6. Done!
 
 #### Note
