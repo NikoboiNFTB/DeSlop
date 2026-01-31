@@ -43,7 +43,7 @@ I'm not doing Google's age verification and paying the fee just to get denied be
 ### Userscript
 
 1. Install your favorite userscript manager.
-  - ([Violentmonkey for Firefox](https://addons.mozilla.org/en-US/firefox/addon/violentmonkey/)/[Tampermonkey for Chromium](https://chromewebstore.google.com/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo)).
+   - ([Violentmonkey for Firefox](https://addons.mozilla.org/en-US/firefox/addon/violentmonkey/)/[Tampermonkey for Chromium](https://chromewebstore.google.com/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo)).
 > On Chromium, make sure Tampermonkey can actually *run* userscripts:
 > Go to `chrome://extensions/`
 > Click **Details** under Tampermonkey
