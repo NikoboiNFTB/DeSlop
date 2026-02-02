@@ -50,7 +50,7 @@ Edge Add-ons or Brave Browser Extensions are not entirely out of the question, f
      1. Go to `chrome://extensions/`
      2. Click **Details** under Tampermonkey
      3. Enable **“Allow access to file URLs”**, **“Allow User Scripts”** and **"Developer Mode"**, then hit **"Update"**
-2. Click [the install link](https://github.com/NikoboiNFTB/DeSlop/raw/refs/heads/main/userscript/deslop-1.5.user.js) and install when prompted.
+2. Click [the install link](https://github.com/NikoboiNFTB/DeSlop/raw/refs/heads/main/userscript/deslop.user.js) and install when prompted.
 3. Done!
 
 ## Blocklist
@@ -108,7 +108,7 @@ See an entry that shouldn't be there? [Submit a report](https://github.com/Nikob
 ```text
 .
 ├── assets
-│   └── YYYYMMDDHHMMSS.png
+│   └── *
 │
 ├── block
 │   ├── list.txt
@@ -118,7 +118,7 @@ See an entry that shouldn't be there? [Submit a report](https://github.com/Nikob
 ├── chromium
 │   └── x.x
 │       ├── icons
-│       │   └── icon128.png
+│       │   └── icon.svg
 │       ├── x.x.zip
 │       ├── deslop-bg.js
 │       ├── deslop.js
@@ -127,19 +127,21 @@ See an entry that shouldn't be there? [Submit a report](https://github.com/Nikob
 ├── firefox
 │   └── x.x
 │       ├── icons
-│       │   └── icon128.png
+│       │   └── icon.svg
 │       ├── x.x.zip
 │       ├── deslop-bg.js
 │       ├── deslop.js
 │       └── manifest.json
 │
 ├── userscript
-│   └── deslop-x.x.user.js
+│   ├── .old
+│   │   └── x.x.user.js
+│   └── deslop.user.js
 │
 ├── LICENSE
 └── README.md
 
-26 directories, 58 files
+35 directories, 89 files
 ```
 
 ## Contributing
