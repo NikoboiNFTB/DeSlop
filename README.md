@@ -131,7 +131,8 @@ See an entry that shouldn't be there? [Submit a report](https://github.com/Nikob
 │       ├── x.x.zip
 │       ├── deslop-bg.js
 │       ├── deslop.js
-│       └── manifest.json
+│       ├── manifest.json
+│       └── youtube_deslop.x.x.xpi
 │
 ├── userscript
 │   ├── .old
