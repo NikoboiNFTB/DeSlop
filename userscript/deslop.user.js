@@ -1,6 +1,7 @@
 // ==UserScript==
 // @name         YouTube DeSlop
 // @namespace    https://github.com/NikoboiNFTB/DeSlop
+// @downloadURL  https://github.com/NikoboiNFTB/DeSlop/raw/refs/heads/main/userscript/deslop.user.js
 // @version      1.5
 // @description  Remove AI slop from your YouTube feed and search results. Blocklist-driven.
 // @author       Nikoboi
