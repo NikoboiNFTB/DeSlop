@@ -8,7 +8,7 @@ Fetches a [blocklist from GitHub](https://raw.githubusercontent.com/NikoboiNFTB/
 
 Channels that publish fully AI-generated content as well as channels that promote or teach how to create it qualify as AI slop, and will therefore be blocked.
 
-As a cherry on top, I *think* YouTube still counts you as having technically "seen" the videos in your feed, but decided not to click them. Which should negatively impact the slop creators' click-through rates, all in the background, which is good.
+As a cherry on top, I _think_ YouTube still counts you as having technically "seen" the videos in your feed, but decided not to click them. Which should negatively impact the slop creators' click-through rates, all in the background, which is good.
 
 [Contributions to the blocklist](#blocklist) are welcome!
 
@@ -46,7 +46,7 @@ Edge Add-ons or Brave Browser Extensions are not entirely out of the question, f
 
 1. Install your favorite userscript manager.
    - ([Violentmonkey for Firefox](https://addons.mozilla.org/en-US/firefox/addon/violentmonkey/)/[Tampermonkey for Chromium](https://chromewebstore.google.com/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo)).
-   - On Chromium, make sure Tampermonkey can actually *run* userscripts:
+   - On Chromium, make sure Tampermonkey can actually _run_ userscripts:
      1. Go to `chrome://extensions/`
      2. Click **Details** under Tampermonkey
      3. Enable **“Allow access to file URLs”**, **“Allow User Scripts”** and **"Developer Mode"**, then hit **"Update"**
@@ -68,17 +68,22 @@ There are multiple ways to report channels.
 This is the easiest on the back-end. You can follow these steps:
 
 1. Fork the repository.
-  - Go to the [GitHub Repository](https://github.com/NikoboiNFTB/DeSlop) and click **Fork** in the top-right corner.
-  - This creates a copy of the repository under your own GitHub account, which you can edit freely.
-2. Modify the blocklist.
-  - Locate the `/block/list.txt` file in your forked repository.
-  - There is a GUIDE at the top of the blocklist file.
-3. Submit a pull request.
-  - Step 1. Go to the [pulls](https://github.com/NikoboiNFTB/DeSlop/pulls) page.
-  - Step 2. ???
-  - Step 3. Profit
 
->> If you're seeing this, step 3 is a work in progress.
+- Go to the [GitHub Repository](https://github.com/NikoboiNFTB/DeSlop) and click **Fork** in the top-right corner.
+- This creates a copy of the repository under your own GitHub account, which you can edit freely.
+
+2. Modify the blocklist.
+
+- Locate the `/block/list.txt` file in your forked repository.
+- There is a GUIDE at the top of the blocklist file.
+
+3. Submit a pull request.
+
+- Step 1. Go to the [pulls](https://github.com/NikoboiNFTB/DeSlop/pulls) page.
+- Step 2. ???
+- Step 3. Profit
+
+> > If you're seeing this, step 3 is a work in progress.
 
 #### Open an Issue
 
@@ -87,9 +92,10 @@ You can also [open an issue](https://github.com/NikoboiNFTB/DeSlop/issues/new?te
 #### Email
 
 Email me at [my support email](mailto:support@nikoboi.dev) and I will add the channel manually.
-  - Preferably a channel link in this case.
-  - Your email will not be used for anything, ever.
-    - Feel free to use any throwaway email, I don't care.
+
+- Preferably a channel link in this case.
+- Your email will not be used for anything, ever.
+  - Feel free to use any throwaway email, I don't care.
 
 #### Google Forms
 
@@ -156,6 +162,7 @@ Created by **[Nikoboi](https://github.com/NikoboiNFTB/)**
 Massive thank you to [Link Gopher](https://sites.google.com/site/linkgopher/), which allows me to yoink all YouTube links from sites very easily.
 
 The following websites provided very convenient blocklists:
+
 - Honorable mention:
   - [FeedSpot](https://videos.feedspot.com/ai_youtube_channels/), providing 76 channels!
 - Adequate mentions:
@@ -166,7 +173,8 @@ The following websites provided very convenient blocklists:
   - [DEV.to](https://dev.to/andrewbaisden/21-must-subscribe-ai-youtube-channels-for-learning-and-inspiration-12m3), 21 channels.
 
 Dishonorable mention:
-- YouTube, for not marking AI slop -_-
+
+- YouTube, for not marking AI slop (-\_-)
 
 ## License
 
