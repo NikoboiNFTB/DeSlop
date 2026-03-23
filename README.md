@@ -157,7 +157,7 @@ Feel free to fork this repository and submit issues or pull requests if you have
 
 ## Credits
 
-Created by **[Nikoboi](https://github.com/NikoboiNFTB/)**
+Created by [**Nikoboi**](https://github.com/NikoboiNFTB/)
 
 Massive thank you to [Link Gopher](https://sites.google.com/site/linkgopher/), which allows me to yoink all YouTube links from sites very easily.
 
