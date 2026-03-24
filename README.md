@@ -55,7 +55,8 @@ Edge Add-ons or Brave Browser Extensions are not entirely out of the question, f
 
 ## Blocklist
 
-⚠️ The list is incomplete! Your help is much appreciated! ⚠️
+> [!WARNING]
+> The list is incomplete! Your help is much appreciated!
 
 The blocklist can be found in [`/block/list.txt`](https://github.com/NikoboiNFTB/DeSlop/blob/main/block/list.txt).
 
