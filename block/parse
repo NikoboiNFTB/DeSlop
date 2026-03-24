@@ -21,4 +21,4 @@ sed -i '/^#/! {
 #   - comments starting with #
 #   - valid channels: /@, /channel/UC, /c/
 #   So this will remove any lingering /about/, /account/ or /ads/
-grep -E '^#|^(/@|/channel/UC|/c/)' list.txt > tmp && mv tmp list.txt
+grep -E '^#|^(/@|/channel/UC|/c/)' list.txt >tmp && mv tmp list.txt

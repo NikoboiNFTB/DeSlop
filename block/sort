@@ -7,16 +7,16 @@ FILE="list.txt"
 TMPFILE=$(mktemp)
 
 # Preserve GUIDE
-grep '^#' "$FILE" > "$TMPFILE"
+grep '^#' "$FILE" >"$TMPFILE"
 
 # Blank line after GUIDE
-echo "" >> "$TMPFILE"
+echo "" >>"$TMPFILE"
 
 # Sort /@ entries
-grep '^/@' "$FILE" | sort -u >> "$TMPFILE"
+grep '^/@' "$FILE" | sort -u >>"$TMPFILE"
 
 # Sort /channel entries
-grep '^/channel/' "$FILE" | sort -u >> "$TMPFILE"
+grep '^/channel/' "$FILE" | sort -u >>"$TMPFILE"
 
 # Replace original file
 mv "$TMPFILE" "$FILE"
