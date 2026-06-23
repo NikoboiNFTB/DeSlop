@@ -54,6 +54,7 @@
 /@mreflow
 /@NeonWave_AI
 /@NeonWaveoficial
+/@Neurosama
 /@NicholasRenotte
 /@nocodemba
 /@OpenAI
@@ -102,6 +103,7 @@
 /channel/UCk6ONJlPzjw3DohAeMSgsng
 /channel/UCkJV9VaWUY-x3zmDaDEz9Zg
 /channel/UCLB7AzTwc6VFZrBsO2ucBMg
+/channel/UCLHmLrj4pHHg3-iBJn_CqxA
 /channel/UCm08TSsp87RRfn9SB_khuUQ
 /channel/UCMbtqTGdSsxYYhhTpV4lSTQ
 /channel/UCmFOjlpYEhxf_wJUDuz6xxQ
