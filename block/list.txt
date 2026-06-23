@@ -54,9 +54,13 @@
 /@mreflow
 /@NeonWave_AI
 /@NeonWaveoficial
+/@Neuro-samaVods
+/@neurochron_fan_channel
+/@NeuroClips-FanChannel
 /@Neurosama
 /@NicholasRenotte
 /@nocodemba
+/@OfficialNeurosamaClips
 /@OpenAI
 /@PrehistoricTimes-10
 /@samwitteveenai
@@ -74,7 +78,9 @@
 /@Web-3-World
 /@WesRoth
 /@WildRealms2345
+/channel/UC-o9u9QL4zXzBwjvT1gmzNg
 /channel/UC3-uyUX8s536lUkrWwYvfDg
+/channel/UC4-3coKq1GwLkfOomm0mLzg
 /channel/UC4e35vN3-tSBZMNLE-wm45A
 /channel/UC4YUUOGVl9WByBuF1n_DGOQ
 /channel/UC7kjWIK1H8tfmFlzZO-wHMw
@@ -94,6 +100,7 @@
 /channel/UCgK6WBvIGtWqf5wA-meT8nQ
 /channel/UCH6gDteHtH4hg3o2343iObA
 /channel/UCHB9VepY6kYvZjj0Bgxnpbw
+/channel/UChjkhDJ3hf7aZCMgXvelWdw
 /channel/UCHlNU7kIZhRgSbhHvFoy72w
 /channel/UChugFTK0KyrES9terTid8vA
 /channel/UCItylrp-EOkBwsUT7c_Xkxg
@@ -109,10 +116,11 @@
 /channel/UCmFOjlpYEhxf_wJUDuz6xxQ
 /channel/UCMi2_TIHEVFWv7GBOtx6YnA
 /channel/UCMLtBahI5DMrt0NPvDSoIRQ
-/channel/UC-o9u9QL4zXzBwjvT1gmzNg
+/channel/UCo59TbTB8i1Xt41rE71ll4g
 /channel/UCobqgqE4i5Kf7wrxRxhToQA
 /channel/UCov_51F0betb6hJ6Gumxg3Q
 /channel/UCoW_WzQNJVAjxo4osNAxd_g
+/channel/UCp2xFtEaFFC2micixkm2jkw
 /channel/UCP7jMXSY2xbc3KCAE0MHQ-A
 /channel/UCpABUkWm8xMt5XmGcFb3EFg
 /channel/UCPAfv1GeraR1WM0608He6ow
