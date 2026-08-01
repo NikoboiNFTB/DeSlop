@@ -2,7 +2,7 @@
 // @name         YouTube DeSlop
 // @namespace    https://github.com/NikoboiNFTB/DeSlop
 // @downloadURL  https://github.com/NikoboiNFTB/DeSlop/raw/refs/heads/main/userscript/deslop.user.js
-// @version      1.5
+// @version      1.6
 // @description  Remove AI slop from your YouTube feed and search results. Blocklist-driven.
 // @author       Nikoboi
 // @match        https://www.youtube.com/*
@@ -18,9 +18,10 @@
         'https://raw.githubusercontent.com/NikoboiNFTB/DeSlop/refs/heads/main/block/list.txt';
 
     const RENDERER_SELECTORS = [
-        'ytd-rich-item-renderer',   // home, subs
-        'ytd-video-renderer',       // search videos
-        'ytd-channel-renderer'      // search channels
+        'ytd-rich-item-renderer',   // Videos in Home and Subscriptions
+        'ytd-video-renderer',       // Videos in Search
+        'ytd-channel-renderer',     // Channels in Search
+        'yt-lockup-view-model'      // Playlists in Search
     ];
 
     let blockedChannels = new Set();
