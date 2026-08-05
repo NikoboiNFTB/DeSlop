@@ -1,9 +1,21 @@
 # --- GUIDE FOR CONTRIBUTORS ---
 #
 #   Simply paste channel links below, ONE PER ROW.
+#
+#   The links are to be as provided as the link in the `href` in the YouTube feed, when hovering over the channel link.
+#   The easiest way to get this is to;
+#       1. Hover over the channel name under a video
+#       2. Right-click it
+#       3. Hit "Inspect"
+#       4. Find the `href=""` in the highlighted `<a>` element
+#       5. Double click it and copy it.
+#       (6. You can hit `Ctrl + X`, and it should leave only `href=""`)
+#
+#   You can also just paste the channel link and run the `parse` script.
+#
 #   Then just submit the pull request and let me do the rest.
 #
-#   If you're editing locally, you can:
+#   If you're editing locally, you can optionally:
 #       1. Run the "parse" script to clean up YouTube URLs.
 #       2. Run the "sort" script to sort entries alphabetically.
 #
