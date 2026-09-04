@@ -21,15 +21,20 @@
 #
 # --- GUIDE END ---
 
+/@AI-pocalypse
+/@AI4Next
 /@aiadvantage
 /@AiAngel
 /@aiexplained-official
 /@AIGrabbing
 /@aihaven345
+/@Aipayyou
 /@aiplosion
 /@AllAboutAI
 /@bballexplainedd
+/@BeckettAi
 /@BlackMixture
+/@BossMediaTech
 /@BrandonFoltz
 /@bycloudAI
 /@ChatCrsh
@@ -38,6 +43,7 @@
 /@coreyms
 /@CosmicEcho10x
 /@cyberjungle
+/@Dan_ai_yt
 /@Dankieft
 /@dashecommerce
 /@DaveShap
@@ -49,7 +55,9 @@
 /@DevonMcGregor1
 /@DigitalDreamscape2024
 /@drwaku
+/@Earningsblueprint
 /@FeedSpotOfficial
+/@folktalesbyOnyiiscorner
 /@GrandpaHopecore
 /@HazardousHDTV
 /@HominidDiscovery-zone
@@ -61,10 +69,13 @@
 /@juliamccoy
 /@KenJee_ds
 /@krishnaik06
+/@LevelupwithBlessing
 /@LiamOttley
+/@LittleSoulStorie
 /@LLMHaven
 /@MachineLearningStreetTalk
 /@makemoneymatt
+/@Markaiguy
 /@matthew_berman
 /@MattVidPro
 /@MoeMoe-chan69
@@ -73,10 +84,10 @@
 /@mreflow
 /@NeonWave_AI
 /@NeonWaveoficial
+/@Neuro-samaVods
 /@neurochron_fan_channel
 /@NeuroClips-FanChannel
 /@Neurosama
-/@Neuro-samaVods
 /@NicholasRenotte
 /@nocodemba
 /@OfficialNeurosamaClips
@@ -87,12 +98,16 @@
 /@sentdex
 /@SkillLeapAI
 /@SleepyTimeHistoryYT
+/@Stella-Tales213
+/@stephenfinance
+/@Talesby_Chizi
 /@TechWithTim
 /@TheAIAndy
 /@TheAiGrid
 /@theAIsearch
 /@TheNextWavePod
 /@TheoreticallyMedia
+/@TubeProjectOfficial
 /@wealth_wise007
 /@Web-3-World
 /@WesRoth
