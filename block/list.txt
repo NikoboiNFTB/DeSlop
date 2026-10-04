@@ -21,7 +21,6 @@
 #
 # --- GUIDE END ---
 
-/@AI-pocalypse
 /@AI4Next
 /@aiadvantage
 /@AiAngel
@@ -30,6 +29,7 @@
 /@aihaven345
 /@Aipayyou
 /@aiplosion
+/@AI-pocalypse
 /@AllAboutAI
 /@bballexplainedd
 /@BeckettAi
@@ -85,10 +85,10 @@
 /@mreflow
 /@NeonWave_AI
 /@NeonWaveoficial
-/@Neuro-samaVods
 /@neurochron_fan_channel
 /@NeuroClips-FanChannel
 /@Neurosama
+/@Neuro-samaVods
 /@NicholasRenotte
 /@nocodemba
 /@OfficialNeurosamaClips
