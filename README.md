@@ -29,7 +29,7 @@ You can add YouTube DeSlop as a local extension to Chromium, a directory is prov
 3. Enable **Developer Mode** in the top-right corner.
 4. Click **Load unpacked** from the newly appeared bar.
 5. Navigate to the extension **folder** and confirm.
-   - Folder, not the zip file.
+    - Folder, not the zip file.
 6. Done!
 
 #### Note
@@ -45,11 +45,11 @@ Edge Add-ons or Brave Browser Extensions are not entirely out of the question, f
 ### Userscript
 
 1. Install your favorite userscript manager.
-   - ([Violentmonkey for Firefox](https://addons.mozilla.org/en-US/firefox/addon/violentmonkey/)/[Tampermonkey for Chromium](https://chromewebstore.google.com/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo)).
-   - On Chromium, make sure Tampermonkey can actually _run_ userscripts:
-     1. Go to `chrome://extensions/`
-     2. Click **Details** under Tampermonkey
-     3. Enable **“Allow access to file URLs”**, **“Allow User Scripts”** and **"Developer Mode"**, then hit **"Update"**
+    - ([Violentmonkey for Firefox](https://addons.mozilla.org/en-US/firefox/addon/violentmonkey/)/[Tampermonkey for Chromium](https://chromewebstore.google.com/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo)).
+    - On Chromium, make sure Tampermonkey can actually _run_ userscripts:
+        1. Go to `chrome://extensions/`
+        2. Click **Details** under Tampermonkey
+        3. Enable **“Allow access to file URLs”**, **“Allow User Scripts”** and **"Developer Mode"**, then hit **"Update"**
 2. Click [the install link](https://github.com/NikoboiNFTB/DeSlop/raw/refs/heads/main/userscript/deslop.user.js) and install when prompted.
 3. Done!
 
@@ -84,7 +84,7 @@ This is the easiest on the back-end. You can follow these steps:
 - Step 2. ???
 - Step 3. Profit
 
-> > If you're seeing this, step 3 is a work in progress.
+> If you're seeing this, step 3 is a work in progress.
 
 #### Open an Issue
 
@@ -96,7 +96,7 @@ Email me at [my support email](mailto:support@nikoboi.dev) and I will add the ch
 
 - Preferably a channel link in this case.
 - Your email will not be used for anything, ever.
-  - Feel free to use any throwaway email, I don't care.
+    - Feel free to use any throwaway email, I don't care.
 
 #### Google Forms
 
@@ -165,13 +165,13 @@ Massive thank you to [Link Gopher](https://sites.google.com/site/linkgopher/), w
 The following websites provided very convenient blocklists:
 
 - Honorable mention:
-  - [FeedSpot](https://videos.feedspot.com/ai_youtube_channels/), providing 76 channels!
+    - [FeedSpot](https://videos.feedspot.com/ai_youtube_channels/), providing 76 channels!
 - Adequate mentions:
-  - [Analytics Vidhya](https://www.analyticsvidhya.com/blog/2025/12/best-ai-youtube-channels/), 12 channels.
-  - [Your Dream AI](https://yourdreamai.com/best-ai-focused-youtube-channels/), 11 channels.
-  - [Useful AI](https://usefulai.com/youtube-channels), 7 channels.
-  - [Awisee](https://awisee.com/blog/best-ai-youtubers/), 5 channels.
-  - [DEV.to](https://dev.to/andrewbaisden/21-must-subscribe-ai-youtube-channels-for-learning-and-inspiration-12m3), 21 channels.
+    - [Analytics Vidhya](https://www.analyticsvidhya.com/blog/2025/12/best-ai-youtube-channels/), 12 channels.
+    - [Your Dream AI](https://yourdreamai.com/best-ai-focused-youtube-channels/), 11 channels.
+    - [Useful AI](https://usefulai.com/youtube-channels), 7 channels.
+    - [Awisee](https://awisee.com/blog/best-ai-youtubers/), 5 channels.
+    - [DEV.to](https://dev.to/andrewbaisden/21-must-subscribe-ai-youtube-channels-for-learning-and-inspiration-12m3), 21 channels.
 
 Dishonorable mention:
 
